@@ -14,6 +14,7 @@ Future<void> main() async {
   final state = await AppState.load();
   runApp(FestesApp(state: state));
   state.refreshRemote();
+  state.checkAppUpdate();
 }
 
 class FestesApp extends StatelessWidget {

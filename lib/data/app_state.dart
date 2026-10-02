@@ -5,6 +5,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../config.dart';
 import '../models/edition.dart';
 
 /// URL pública de l'edició per a actualitzacions sense passar per les botigues.
@@ -21,6 +22,9 @@ class AppState extends ChangeNotifier {
   Edition edition;
   String lang; // 'ca' | 'es'
   final Set<String> _favorites;
+
+  /// Notes i enllaç d'una versió més nova de l'APK (només Android natiu).
+  Map<String, dynamic>? update;
 
   static Future<AppState> load() async {
     final prefs = await SharedPreferences.getInstance();
@@ -49,6 +53,20 @@ class AppState extends ChangeNotifier {
       if (e.version > edition.version || e.year != edition.year) {
         await _prefs.setString(_kCacheKey, body);
         edition = e;
+        notifyListeners();
+      }
+    } catch (_) {}
+  }
+
+  /// Mira si hi ha una versió nova de l'app (APK instal·lat a mà no s'actualitza sol).
+  Future<void> checkAppUpdate() async {
+    if (kIsWeb || defaultTargetPlatform != TargetPlatform.android) return;
+    try {
+      final r = await http.get(Uri.parse(kVersionUrl)).timeout(const Duration(seconds: 8));
+      if (r.statusCode != 200) return;
+      final j = jsonDecode(utf8.decode(r.bodyBytes)) as Map<String, dynamic>;
+      if ((j['build'] as int) > kAppBuild) {
+        update = j;
         notifyListeners();
       }
     } catch (_) {}

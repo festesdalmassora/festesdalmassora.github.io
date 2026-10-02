@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:url_launcher/url_launcher.dart';
+
 import '../data/app_state.dart';
 import '../i18n.dart';
 import '../widgets/bull_icon.dart';
@@ -34,6 +36,22 @@ class HomeScreen extends StatelessWidget {
             padding: const EdgeInsets.fromLTRB(16, 12, 16, 0),
             child: Text(tr(l, 'unofficial'), style: Theme.of(context).textTheme.bodySmall?.copyWith(color: Theme.of(context).colorScheme.outline)),
           ),
+          if (state.update != null)
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 12, 16, 0),
+              child: Card(
+                color: Theme.of(context).colorScheme.tertiaryContainer,
+                child: ListTile(
+                  leading: const Icon(Icons.system_update),
+                  title: Text(tr(l, 'update_available'), style: const TextStyle(fontWeight: FontWeight.w700)),
+                  subtitle: Text(((state.update!['notes'] as Map?)?[l] as String?) ?? ''),
+                  trailing: FilledButton(
+                    onPressed: () => launchUrl(Uri.parse(state.update!['page'] as String), mode: LaunchMode.externalApplication),
+                    child: Text(tr(l, 'update_btn')),
+                  ),
+                ),
+              ),
+            ),
           if (daysLeft > 0)
             Padding(
               padding: const EdgeInsets.fromLTRB(16, 12, 16, 0),

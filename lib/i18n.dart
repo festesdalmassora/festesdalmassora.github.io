@@ -53,6 +53,8 @@ const _s = <String, Map<String, String>>{
   },
   'contact_btn': {'ca': 'Envia un correu', 'es': 'Enviar un correo'},
   'made_by': {'ca': 'Fet per', 'es': 'Hecho por'},
+  'update_available': {'ca': "Hi ha una versió nova de l'app", 'es': 'Hay una versión nueva de la app'},
+  'update_btn': {'ca': 'Descarrega', 'es': 'Descargar'},
   'call': {'ca': 'Telefona', 'es': 'Llamar'},
 };
 
