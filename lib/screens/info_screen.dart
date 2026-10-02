@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../config.dart';
 import '../data/app_state.dart';
 import '../i18n.dart';
 import '../widgets/common.dart';
@@ -42,6 +43,21 @@ class InfoScreen extends StatelessWidget {
             SectionTitle(i.title.of(l)),
             Padding(padding: const EdgeInsets.symmetric(horizontal: 16), child: Text(i.body.of(l))),
           ],
+          if (kContactEmail.isNotEmpty) ...[
+            SectionTitle(tr(l, 'contact')),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Text(tr(l, 'contact_body')),
+                const SizedBox(height: 8),
+                FilledButton.tonalIcon(
+                  onPressed: () => launchUrl(Uri(scheme: 'mailto', path: kContactEmail, queryParameters: {'subject': kContactSubject})),
+                  icon: const Icon(Icons.mail_outline),
+                  label: Text(tr(l, 'contact_btn')),
+                ),
+              ]),
+            ),
+          ],
           SectionTitle(tr(l, 'about')),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
@@ -52,6 +68,7 @@ class InfoScreen extends StatelessWidget {
               const SizedBox(height: 8),
               Text(tr(l, 'unofficial'), style: Theme.of(context).textTheme.bodySmall?.copyWith(fontWeight: FontWeight.w700)),
               const SizedBox(height: 8),
+              if (kAuthorName.isNotEmpty) Text('${tr(l, 'made_by')} $kAuthorName', style: Theme.of(context).textTheme.bodySmall),
               Text('v1.0 · edició ${ed.year} (${ed.version})', style: Theme.of(context).textTheme.bodySmall),
             ]),
           ),

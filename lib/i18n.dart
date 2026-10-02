@@ -46,6 +46,13 @@ const _s = <String, Map<String, String>>{
     'ca': 'Dades extretes del llibret de festes 2026.',
     'es': 'Datos extraídos del llibret de fiestas 2026.',
   },
+  'contact': {'ca': 'Contacte', 'es': 'Contacto'},
+  'contact_body': {
+    'ca': 'Has trobat un error o tens un suggeriment? Escriu-nos.',
+    'es': '¿Has encontrado un error o tienes una sugerencia? Escríbenos.',
+  },
+  'contact_btn': {'ca': 'Envia un correu', 'es': 'Enviar un correo'},
+  'made_by': {'ca': 'Fet per', 'es': 'Hecho por'},
   'call': {'ca': 'Telefona', 'es': 'Llamar'},
 };
 

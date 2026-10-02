@@ -20,7 +20,11 @@ jobs:
           channel: stable
       - run: flutter pub get
       - run: flutter test
-      - run: flutter build web --release --base-href "/${{ github.event.repository.name }}/"
+      - name: Build web
+        run: |
+          REPO="${{ github.event.repository.name }}"
+          if [[ "$REPO" == *.github.io ]]; then BASE="/"; else BASE="/$REPO/"; fi
+          flutter build web --release --base-href "$BASE"
       - run: mkdir -p build/web/editions/2026 && cp assets/editions/2026/edition.json build/web/editions/2026/edition.json
       - uses: actions/upload-pages-artifact@v3
         with:
