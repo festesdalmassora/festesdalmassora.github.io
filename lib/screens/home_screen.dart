@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../data/app_state.dart';
 import '../i18n.dart';
+import '../widgets/bull_icon.dart';
 import '../widgets/common.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -64,7 +65,7 @@ class HomeScreen extends StatelessWidget {
               ),
               const SizedBox(width: 12),
               Expanded(
-                child: FilledButton.tonalIcon(onPressed: onGoToBulls, icon: const Icon(Icons.pets), label: Text(tr(l, 'bulls'))),
+                child: FilledButton.tonalIcon(onPressed: onGoToBulls, icon: const BullIcon(), label: Text(tr(l, 'bulls'))),
               ),
             ]),
           ),

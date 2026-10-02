@@ -4,9 +4,10 @@ import 'package:url_launcher/url_launcher.dart';
 import '../data/app_state.dart';
 import '../i18n.dart';
 import '../models/edition.dart';
+import 'bull_icon.dart';
 
 const Map<String, IconData> kCatIcons = {
-  'bous': Icons.pets,
+  'bous': Icons.sports_martial_arts,
   'religios': Icons.church,
   'musica': Icons.music_note,
   'infantil': Icons.child_care,
@@ -16,6 +17,12 @@ const Map<String, IconData> kCatIcons = {
   'festa': Icons.celebration,
   'focs': Icons.auto_awesome,
 };
+
+/// Icona d'una categoria (el bou usa la silueta pròpia).
+Widget catIcon(String cat, {double? size, Color? color}) {
+  if (cat == 'bous') return BullIcon(size: size, color: color);
+  return Icon(kCatIcons[cat] ?? Icons.circle, size: size, color: color);
+}
 
 Color catColor(String cat, ColorScheme cs) {
   switch (cat) {
@@ -65,7 +72,7 @@ class EventTile extends StatelessWidget {
             Column(children: [
               Text(event.displayTime, style: Theme.of(context).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.w800, color: color)),
               const SizedBox(height: 4),
-              Icon(kCatIcons[event.cat] ?? Icons.circle, size: 18, color: color),
+              catIcon(event.cat, size: 18, color: color),
             ]),
             const SizedBox(width: 12),
             Expanded(
@@ -115,7 +122,7 @@ void showEventDetail(BuildContext context, AppState state, Event e) {
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, mainAxisSize: MainAxisSize.min, children: [
               Wrap(spacing: 8, children: [
                 Chip(
-                  avatar: Icon(kCatIcons[e.cat], size: 16, color: catColor(e.cat, cs)),
+                  avatar: catIcon(e.cat, size: 16, color: catColor(e.cat, cs)),
                   label: Text(cat?.of(l) ?? e.cat),
                   visualDensity: VisualDensity.compact,
                 ),

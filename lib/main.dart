@@ -7,6 +7,7 @@ import 'screens/bulls_screen.dart';
 import 'screens/court_screen.dart';
 import 'screens/home_screen.dart';
 import 'screens/info_screen.dart';
+import 'widgets/bull_icon.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -78,7 +79,7 @@ class _ShellState extends State<Shell> {
           NavigationDestination(icon: const Icon(Icons.celebration_outlined), selectedIcon: const Icon(Icons.celebration), label: tr(l, 'home')),
           NavigationDestination(icon: const Icon(Icons.event_note_outlined), selectedIcon: const Icon(Icons.event_note), label: tr(l, 'program')),
           NavigationDestination(icon: const Icon(Icons.workspace_premium_outlined), selectedIcon: const Icon(Icons.workspace_premium), label: tr(l, 'court')),
-          NavigationDestination(icon: const Icon(Icons.pets_outlined), selectedIcon: const Icon(Icons.pets), label: tr(l, 'bulls')),
+          NavigationDestination(icon: const BullIcon(), selectedIcon: const BullIcon(), label: tr(l, 'bulls')),
           NavigationDestination(icon: const Icon(Icons.info_outline), selectedIcon: const Icon(Icons.info), label: tr(l, 'info')),
         ],
       ),

@@ -113,7 +113,7 @@ class _AgendaScreenState extends State<AgendaScreen> {
                   Padding(
                     padding: const EdgeInsets.only(right: 8),
                     child: FilterChip(
-                      avatar: Icon(kCatIcons[c.key], size: 16, color: catColor(c.key, Theme.of(context).colorScheme)),
+                      avatar: catIcon(c.key, size: 16, color: catColor(c.key, Theme.of(context).colorScheme)),
                       label: Text(c.value.of(l)),
                       selected: _cat == c.key,
                       onSelected: (v) => setState(() => _cat = v ? c.key : null),

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../data/app_state.dart';
 import '../i18n.dart';
 import '../models/edition.dart';
+import '../widgets/bull_icon.dart';
 import '../widgets/common.dart';
 
 class BullsScreen extends StatelessWidget {
@@ -49,7 +50,7 @@ class _CowsTile extends StatelessWidget {
         color: Theme.of(context).colorScheme.secondaryContainer,
         margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
         child: ListTile(
-          leading: const Icon(Icons.pets),
+          leading: const BullIcon(),
           title: Text('${c.time} · ${tr(l, 'cows_title')}', style: const TextStyle(fontWeight: FontWeight.w700)),
           subtitle: Text('${tr(l, 'bull_ranch')}: ${c.ranch}'),
         ),
@@ -86,7 +87,7 @@ class _BullCard extends StatelessWidget {
                 width: 56,
                 height: 56,
                 decoration: BoxDecoration(color: cs.errorContainer, borderRadius: BorderRadius.circular(14)),
-                child: Icon(Icons.pets, color: cs.onErrorContainer),
+                child: Padding(padding: const EdgeInsets.all(8), child: BullIcon(color: cs.onErrorContainer)),
               ),
             const SizedBox(width: 12),
             Expanded(
