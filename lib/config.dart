@@ -4,8 +4,8 @@ const String kAuthorName = '';
 const String kContactSubject = 'Festes del Roser - suggeriment';
 
 /// Número de compilació d'esta versió (el mateix que després del "+" a pubspec.yaml).
-const int kAppBuild = 5;
-const String kAppVersionName = '1.0.4';
+const int kAppBuild = 6;
+const String kAppVersionName = '1.0.5';
 
 /// Estadístiques anònimes d'ús (GoatCounter, sense galetes ni dades personals).
 const String kStatsUrl = 'https://festesdalmassora.goatcounter.com/count';
