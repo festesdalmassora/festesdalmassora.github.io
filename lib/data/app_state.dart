@@ -9,8 +9,8 @@ import '../models/edition.dart';
 
 /// URL pública de l'edició per a actualitzacions sense passar per les botigues.
 /// Buida = només s'usa el contingut embegut. Exemple (GitHub Pages):
-/// 'https://USUARI.github.io/festes-almassora/editions/2026/edition.json'
-const String kRemoteEditionUrl = 'https://jjapier.github.io/FestesAlmassora/editions/2026/edition.json';
+/// 'https://festesdalmassora.github.io/editions/2026/edition.json'
+const String kRemoteEditionUrl = 'https://festesdalmassora.github.io/editions/2026/edition.json';
 const String kEditionAsset = 'assets/editions/2026/edition.json';
 const String _kCacheKey = 'edition_cache';
 
