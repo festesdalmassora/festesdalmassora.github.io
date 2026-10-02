@@ -39,7 +39,8 @@ if (-not $apksigner) { throw 'No encuentro apksigner en el Android SDK.' }
 
 # 1. Versión y build
 Step 'Calculando versión'
-$cfg = Get-Content 'lib/config.dart' -Raw
+$utf8 = New-Object Text.UTF8Encoding $false
+$cfg = [IO.File]::ReadAllText((Resolve-Path 'lib/config.dart'), $utf8)
 $curBuild = [int]([regex]::Match($cfg, 'kAppBuild = (\d+);').Groups[1].Value)
 $curName = [regex]::Match($cfg, "kAppVersionName = '([^']+)'").Groups[1].Value
 $newBuild = $curBuild + 1
@@ -48,11 +49,11 @@ Write-Host "  $curName+$curBuild  ->  $Version+$newBuild"
 
 $cfg = $cfg -replace 'kAppBuild = \d+;', "kAppBuild = $newBuild;"
 $cfg = $cfg -replace "kAppVersionName = '[^']+'", "kAppVersionName = '$Version'"
-[IO.File]::WriteAllText((Resolve-Path 'lib/config.dart'), $cfg, (New-Object Text.UTF8Encoding $false))
+[IO.File]::WriteAllText((Resolve-Path 'lib/config.dart'), $cfg, $utf8)
 
-$pub = Get-Content 'pubspec.yaml' -Raw
+$pub = [IO.File]::ReadAllText((Resolve-Path 'pubspec.yaml'), $utf8)
 $pub = $pub -replace '(?m)^version: .*$', "version: $Version+$newBuild"
-[IO.File]::WriteAllText((Resolve-Path 'pubspec.yaml'), $pub, (New-Object Text.UTF8Encoding $false))
+[IO.File]::WriteAllText((Resolve-Path 'pubspec.yaml'), $pub, $utf8)
 
 # 2. Comprobaciones
 Step 'flutter analyze + test'
@@ -87,7 +88,7 @@ $ver = [ordered]@{
   page  = 'https://festesdalmassora.github.io/descarga.html'
   notes = [ordered]@{ ca = $NotesCa; es = $NotesEs }
 }
-[IO.File]::WriteAllText((Resolve-Path 'web/version.json'), ($ver | ConvertTo-Json -Depth 4), (New-Object Text.UTF8Encoding $false))
+[IO.File]::WriteAllText((Resolve-Path 'web/version.json'), ($ver | ConvertTo-Json -Depth 4), $utf8)
 
 # 6. Git
 Step 'Commit y push'

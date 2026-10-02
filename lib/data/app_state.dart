@@ -72,6 +72,20 @@ class AppState extends ChangeNotifier {
     } catch (_) {}
   }
 
+  /// Avís anònim "s'ha obert l'app" (només Android natiu); sense identificadors personals.
+  Future<void> pingStats() async {
+    if (kIsWeb || kStatsUrl.isEmpty) return;
+    try {
+      final uri = Uri.parse(kStatsUrl).replace(queryParameters: {
+        'p': '/app/android',
+        't': 'App Android $kAppVersionName',
+      });
+      await http
+          .get(uri, headers: {'User-Agent': 'Mozilla/5.0 (Linux; Android) FestesAlmassora/$kAppVersionName'})
+          .timeout(const Duration(seconds: 6));
+    } catch (_) {}
+  }
+
   void setLang(String l) {
     lang = l;
     _prefs.setString('lang', l);

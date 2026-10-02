@@ -39,8 +39,8 @@ const _s = <String, Map<String, String>>{
   'language': {'ca': 'Idioma', 'es': 'Idioma'},
   'about': {'ca': "Sobre l'app", 'es': 'Sobre la app'},
   'about_body': {
-    'ca': "Programa de les festes en honor a la Mare de Déu del Roser d'Almassora. Sense publicitat ni recollida de dades. Els horaris poden canviar: consulta sempre les indicacions de la Junta Local de Festes.",
-    'es': 'Programa de las fiestas en honor a la Virgen del Rosario de Almassora. Sin publicidad ni recogida de datos. Los horarios pueden cambiar: consulte siempre las indicaciones de la Junta Local de Fiestas.',
+    'ca': "Programa de les festes en honor a la Mare de Déu del Roser d'Almassora. Sense publicitat. Només estadístiques anònimes d'ús, sense galetes ni dades personals. Els horaris poden canviar: consulta sempre les indicacions de la Junta Local de Festes.",
+    'es': 'Programa de las fiestas en honor a la Virgen del Rosario de Almassora. Sin publicidad. Solo estadísticas anónimas de uso, sin cookies ni datos personales. Los horarios pueden cambiar: consulte siempre las indicaciones de la Junta Local de Fiestas.',
   },
   'source': {
     'ca': 'Dades extretes del llibret de festes 2026.',

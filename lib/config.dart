@@ -1,11 +1,14 @@
-/// Dades de contacte opcionals (si estan buides, la secciÃƒÂ³ no es mostra).
+/// Dades de contacte opcionals (si estan buides, la secció no es mostra).
 const String kContactEmail = 'festesdalmassora@gmail.com';
 const String kAuthorName = '';
 const String kContactSubject = 'Festes del Roser - suggeriment';
 
-/// NÃƒÂºmero de compilaciÃƒÂ³ d'esta versiÃƒÂ³ (el mateix que desprÃƒÂ©s del "+" a pubspec.yaml).
-const int kAppBuild = 4;
-const String kAppVersionName = '1.0.3';
+/// Número de compilació d'esta versió (el mateix que després del "+" a pubspec.yaml).
+const int kAppBuild = 5;
+const String kAppVersionName = '1.0.4';
 
-/// Fitxer amb l'ÃƒÂºltima versiÃƒÂ³ publicada de l'APK (mira les notes a README.md).
+/// Estadístiques anònimes d'ús (GoatCounter, sense galetes ni dades personals).
+const String kStatsUrl = 'https://festesdalmassora.goatcounter.com/count';
+
+/// Fitxer amb l'última versió publicada de l'APK (mira les notes a README.md).
 const String kVersionUrl = 'https://festesdalmassora.github.io/version.json';
