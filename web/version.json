@@ -1,10 +1,10 @@
 {
-    "build":  7,
-    "name":  "1.0.6",
+    "build":  8,
+    "name":  "1.0.7",
     "apk":  "https://festesdalmassora.github.io/download/FestesAlmassora-arm64.apk",
     "page":  "https://festesdalmassora.github.io/descarga.html",
     "notes":  {
-                  "ca":  "Nom de l\u0027app i versió visible a Info.",
-                  "es":  "Nombre de la app y versión visible en Info."
+                  "ca":  "Nova icona: el canó de confeti.",
+                  "es":  "Nuevo icono: el cañón de confeti."
               }
 }
