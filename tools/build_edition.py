@@ -483,7 +483,7 @@ edition = {
     'title': t('Festes de la Mare de Déu del Roser', 'Fiestas de la Virgen del Rosario'),
     'town': 'Almassora',
     'dates': {'start': DATES[0], 'end': DATES[-1]},
-    'seedColor': '#E8453C',
+    'seedColor': '#2E8B57',
     'categories': {
         'bous': t('Bous', 'Toros'), 'religios': t('Religiós', 'Religioso'), 'musica': t('Música', 'Música'),
         'infantil': t('Infantil', 'Infantil'), 'penyes': t('Penyes', 'Peñas'), 'majors': t('Gent gran', 'Mayores'),

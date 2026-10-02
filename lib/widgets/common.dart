@@ -28,7 +28,7 @@ Color catColor(String cat, ColorScheme cs) {
     case 'infantil':
       return const Color(0xFF1FA2B8);
     case 'penyes':
-      return const Color(0xFF2E9E5B);
+      return const Color(0xFF3F6FD8);
     case 'majors':
       return const Color(0xFF8E6E53);
     case 'cultura':
@@ -176,7 +176,7 @@ class FestaHeader extends StatelessWidget {
         gradient: LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
-          colors: [Color(0xFFE8453C), Color(0xFFF08A24), Color(0xFFF7C948)],
+          colors: [Color(0xFF1B6B43), Color(0xFF2E9E5B), Color(0xFF9CCC4F)],
         ),
         borderRadius: BorderRadius.vertical(bottom: Radius.circular(32)),
       ),
