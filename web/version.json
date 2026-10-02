@@ -1,10 +1,10 @@
 {
-    "build":  6,
-    "name":  "1.0.5",
+    "build":  7,
+    "name":  "1.0.6",
     "apk":  "https://festesdalmassora.github.io/download/FestesAlmassora-arm64.apk",
     "page":  "https://festesdalmassora.github.io/descarga.html",
     "notes":  {
-                  "ca":  "Icona de la rosa a tots els dispositius.",
-                  "es":  "Icono de la rosa en todos los dispositivos."
+                  "ca":  "Nom de l\u0027app i versió visible a Info.",
+                  "es":  "Nombre de la app y versión visible en Info."
               }
 }

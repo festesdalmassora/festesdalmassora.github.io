@@ -69,7 +69,7 @@ class InfoScreen extends StatelessWidget {
               Text(tr(l, 'unofficial'), style: Theme.of(context).textTheme.bodySmall?.copyWith(fontWeight: FontWeight.w700)),
               const SizedBox(height: 8),
               if (kAuthorName.isNotEmpty) Text('${tr(l, 'made_by')} $kAuthorName', style: Theme.of(context).textTheme.bodySmall),
-              Text('v1.0 · edició ${ed.year} (${ed.version})', style: Theme.of(context).textTheme.bodySmall),
+              Text('v$kAppVersionName ($kAppBuild) · edició ${ed.year} (${ed.version})', style: Theme.of(context).textTheme.bodySmall),
             ]),
           ),
         ]);
