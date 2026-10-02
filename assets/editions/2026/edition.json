@@ -1,0 +1,2704 @@
+{
+ "year": 2026,
+ "version": 1,
+ "title": {
+  "ca": "Festes de la Mare de Déu del Roser",
+  "es": "Fiestas de la Virgen del Rosario"
+ },
+ "town": "Almassora",
+ "dates": {
+  "start": "2026-10-02",
+  "end": "2026-10-11"
+ },
+ "seedColor": "#E8453C",
+ "categories": {
+  "bous": {
+   "ca": "Bous",
+   "es": "Toros"
+  },
+  "religios": {
+   "ca": "Religiós",
+   "es": "Religioso"
+  },
+  "musica": {
+   "ca": "Música",
+   "es": "Música"
+  },
+  "infantil": {
+   "ca": "Infantil",
+   "es": "Infantil"
+  },
+  "penyes": {
+   "ca": "Penyes",
+   "es": "Peñas"
+  },
+  "majors": {
+   "ca": "Gent gran",
+   "es": "Mayores"
+  },
+  "cultura": {
+   "ca": "Cultura",
+   "es": "Cultura"
+  },
+  "festa": {
+   "ca": "Festa",
+   "es": "Fiesta"
+  },
+  "focs": {
+   "ca": "Focs",
+   "es": "Fuegos"
+  }
+ },
+ "places": {
+  "major": {
+   "ca": "Plaça Major",
+   "es": "Plaza Mayor",
+   "query": "Plaça Major, Almassora"
+  },
+  "picaora": {
+   "ca": "Plaça de la Picaora",
+   "es": "Plaza de la Picaora",
+   "query": "Plaça de la Picaora, Almassora"
+  },
+  "espanya": {
+   "ca": "Plaça d'Espanya",
+   "es": "Plaza España",
+   "query": "Plaça d'Espanya, Almassora"
+  },
+  "molineta": {
+   "ca": "Zona Latina · Plaça de la Molineta",
+   "es": "Zona Latina · Plaza de la Molineta",
+   "query": "Zona Latina · Plaça de la Molineta, Almassora"
+  },
+  "recinte": {
+   "ca": "Recinte Fester",
+   "es": "Recinte Fester",
+   "query": "Recinte Fester, Almassora"
+  },
+  "cultura": {
+   "ca": "Casa de la Cultura",
+   "es": "Casa de la Cultura",
+   "query": "Casa de la Cultura, Almassora"
+  },
+  "residencia": {
+   "ca": "Residència Municipal Vicente Vilar Morellà",
+   "es": "Residencia Municipal Vicente Vilar Morellà",
+   "query": "Residència Municipal Vicente Vilar Morellà, Almassora"
+  },
+  "molas": {
+   "ca": "Residència Maria Rosa Molas (c/ Darremur, 39)",
+   "es": "Residencia Maria Rosa Molas (c/ Darremur, 39)",
+   "query": "Carrer Darremur 39, Almassora"
+  },
+  "trinitat": {
+   "ca": "c/ Trinitat",
+   "es": "c/ Trinidad",
+   "query": "Carrer de la Trinitat, Almassora"
+  },
+  "leos": {
+   "ca": "c/ Trinitat, 5 (pub Leos)",
+   "es": "c/ Trinidad, 5 (pub Leos)",
+   "query": "Carrer de la Trinitat 5, Almassora"
+  },
+  "junta": {
+   "ca": "Junta Local de Festes",
+   "es": "Junta Local de Fiestas",
+   "query": "Junta Local de Festes, Almassora"
+  },
+  "sant_pere": {
+   "ca": "Esplanada del c/ Sant Pere",
+   "es": "Explanada del c/ San Pedro",
+   "query": "Carrer Sant Pere, Almassora"
+  },
+  "caixa": {
+   "ca": "CaixAlmassora",
+   "es": "CaixAlmassora",
+   "query": "CaixAlmassora, Almassora"
+  },
+  "llauradors": {
+   "ca": "Saló dels Llauradors (CaixAlmassora)",
+   "es": "Salón de los Labradores (CaixAlmassora)",
+   "query": "Saló dels Llauradors (CaixAlmassora), Almassora"
+  },
+  "espai_mercat": {
+   "ca": "Espai Mercat",
+   "es": "Espai Mercat",
+   "query": "Espai Mercat, Almassora"
+  },
+  "pere_cornell": {
+   "ca": "Plaça de Pere Cornell",
+   "es": "Plaza de Pere Cornell",
+   "query": "Plaça de Pere Cornell, Almassora"
+  },
+  "botanic": {
+   "ca": "Plaça del Botànic Calduch",
+   "es": "Plaza del Botànic Calduch",
+   "query": "Plaça del Botànic Calduch, Almassora"
+  },
+  "victimes": {
+   "ca": "Plaça Víctimes del Terrorisme",
+   "es": "Plaza Víctimas del Terrorismo",
+   "query": "Plaça Víctimes del Terrorisme, Almassora"
+  },
+  "piscina": {
+   "ca": "Pàrquing de la piscina municipal",
+   "es": "Aparcamiento de la piscina municipal",
+   "query": "Piscina municipal, Almassora"
+  },
+  "jaume": {
+   "ca": "Monument al rei Jaume I",
+   "es": "Monumento al rey Jaime I",
+   "query": "Plaça Major, Almassora"
+  },
+  "sant_marc": {
+   "ca": "c/ Sant Marc, 127",
+   "es": "c/ San Marcos, 127",
+   "query": "Carrer Sant Marc 127, Almassora"
+  },
+  "sant_marc_picaora": {
+   "ca": "c/ Sant Marc (davant de la Picaora)",
+   "es": "c/ San Marcos (delante de la Picaora)",
+   "query": "Plaça de la Picaora, Almassora"
+  },
+  "sant_roc": {
+   "ca": "c/ Sant Roc, s/n (casal del Caragol)",
+   "es": "c/ San Roque, s/n (casal de El Caragol)",
+   "query": "Carrer Sant Roc, Almassora"
+  },
+  "sant_roc31": {
+   "ca": "c/ Sant Roc, 31",
+   "es": "c/ San Roque, 31",
+   "query": "Carrer Sant Roc 31, Almassora"
+  },
+  "cervantes": {
+   "ca": "c/ Cervantes, 11",
+   "es": "c/ Cervantes, 11",
+   "query": "Carrer Cervantes 11, Almassora"
+  },
+  "major19": {
+   "ca": "c/ Major, 19 (penya El Barrilet)",
+   "es": "c/ Mayor, 19 (peña El Barrilet)",
+   "query": "Carrer Major 19, Almassora"
+  },
+  "major_carrer": {
+   "ca": "c/ Major",
+   "es": "c/ Mayor",
+   "query": "Carrer Major, Almassora"
+  },
+  "dolors": {
+   "ca": "c/ Virgen de los Dolores, 13",
+   "es": "c/ Virgen de los Dolores, 13",
+   "query": "Carrer Virgen de los Dolores 13, Almassora"
+  },
+  "cristofol": {
+   "ca": "c/ Sant Cristòfol, 3",
+   "es": "c/ San Cristóbal, 3",
+   "query": "Carrer Sant Cristòfol 3, Almassora"
+  },
+  "sant_joaquim": {
+   "ca": "c/ Sant Joaquim, 72",
+   "es": "c/ San Joaquín, 72",
+   "query": "Carrer Sant Joaquim 72, Almassora"
+  },
+  "sant_agusti": {
+   "ca": "c/ Sant Agustí, 12",
+   "es": "c/ San Agustín, 12",
+   "query": "Carrer Sant Agustí 12, Almassora"
+  },
+  "sant_roc24": {
+   "ca": "c/ Sant Roc, 24",
+   "es": "c/ San Roque, 24",
+   "query": "Carrer Sant Roc 24, Almassora"
+  },
+  "sant_marc_alcora": {
+   "ca": "c/ Sant Marc (cantonada Santa Quitèria-l'Alcora)",
+   "es": "c/ San Marcos (esquina Santa Quiteria-Alcora)",
+   "query": "Carrer Sant Marc, Almassora"
+  },
+  "santa_quiteria": {
+   "ca": "Paratge de Santa Quitèria",
+   "es": "Paraje de Santa Quiteria",
+   "query": "Ermita Santa Quitèria, Almassora"
+  },
+  "platja": {
+   "ca": "Platja d'Almassora",
+   "es": "Playa de Almassora",
+   "query": "Platja d'Almassora"
+  },
+  "les_goles": {
+   "ca": "Bar Les Goles",
+   "es": "Bar Les Goles",
+   "query": "Bar Les Goles, Almassora"
+  },
+  "esglesia": {
+   "ca": "Parròquia de la Nativitat",
+   "es": "Parroquia de la Natividad",
+   "query": "Parròquia de la Nativitat, Almassora"
+  },
+  "calvari": {
+   "ca": "Església del Santíssim Crist del Calvari",
+   "es": "Iglesia del Stmo. Cristo del Calvario",
+   "query": "Església del Santíssim Crist del Calvari, Almassora"
+  },
+  "vila": {
+   "ca": "Per la Vila",
+   "es": "Por la Vila",
+   "query": "Plaça Major, Almassora"
+  },
+  "alzheimer": {
+   "ca": "Unitat de Respir d'Alzheimer (Santa Quitèria)",
+   "es": "Unidad de Respiro de Alzheimer (Santa Quiteria)",
+   "query": "Ermita Santa Quitèria, Almassora"
+  },
+  "tasqueta": {
+   "ca": "Plaça d'Espanya (Tasqueta del Mercat)",
+   "es": "Plaza España (Tasqueta del Mercat)",
+   "query": "Plaça d'Espanya, Almassora"
+  }
+ },
+ "events": [
+  {
+   "date": "2026-10-02",
+   "time": "17:30",
+   "cat": "majors",
+   "place": "residencia",
+   "title": {
+    "ca": "Actuació de Raquel López Soler (XXV aniversari de la Residència)",
+    "es": "Actuación de Raquel López Soler (XXV aniversario de la Residencia)"
+   },
+   "desc": null,
+   "id": "e000"
+  },
+  {
+   "date": "2026-10-02",
+   "time": "19:00",
+   "cat": "religios",
+   "place": "calvari",
+   "title": {
+    "ca": "Novena a la Mare de Déu del Roser",
+    "es": "Novena a la Virgen del Rosario"
+   },
+   "desc": null,
+   "id": "e001"
+  },
+  {
+   "date": "2026-10-02",
+   "time": "19:00",
+   "cat": "cultura",
+   "place": "llauradors",
+   "title": {
+    "ca": "Inauguració de l'exposició de labors",
+    "es": "Inauguración de la exposición de labores"
+   },
+   "desc": {
+    "ca": "A càrrec de l'Associació d'Ames de Casa d'Almassora.",
+    "es": "A cargo de la Asociación de Amas de Casa de Almassora."
+   },
+   "id": "e002"
+  },
+  {
+   "date": "2026-10-02",
+   "time": "19:00",
+   "cat": "musica",
+   "place": "sant_roc24",
+   "title": {
+    "ca": "Tardeo amb Fabian Sánchez (penya Bufa la Gamba)",
+    "es": "Tardeo con Fabian Sánchez (peña Bufa la Gamba)"
+   },
+   "desc": null,
+   "id": "e003"
+  },
+  {
+   "date": "2026-10-02",
+   "time": "19:30",
+   "cat": "cultura",
+   "place": "caixa",
+   "title": {
+    "ca": "Exposició de pintura «El alma sobre lienzo»",
+    "es": "Exposición de pintura «El alma sobre lienzo»"
+   },
+   "desc": {
+    "ca": "De Santiago Tena Climent. Fins al 15 d'octubre. Horari: dl-dv 18.30-21.00 h; ds i festius 11.30-13.30 i 18.30-21.00 h; dg tancat.",
+    "es": "De Santiago Tena Climent. Hasta el 15 de octubre. Horario: L-V 18.30-21.00 h; sáb y festivos 11.30-13.30 y 18.30-21.00 h; dom cerrado."
+   },
+   "id": "e004"
+  },
+  {
+   "date": "2026-10-02",
+   "time": "20:00",
+   "cat": "cultura",
+   "place": "espai_mercat",
+   "title": {
+    "ca": "Exposició «Cuatro mujeres, cuatro miradas»",
+    "es": "Exposición «Cuatro mujeres, cuatro miradas»"
+   },
+   "desc": {
+    "ca": "Anna N., Mayeska, Chus Comellas i Maria Griñó. Del 2 al 18 d'octubre.",
+    "es": "Anna N., Mayeska, Chus Comellas y Maria Griñó. Del 2 al 18 de octubre."
+   },
+   "id": "e005"
+  },
+  {
+   "date": "2026-10-02",
+   "time": "20:00",
+   "cat": "musica",
+   "place": "espanya",
+   "title": {
+    "ca": "Inauguració del Casal del Vi · Ruta festera dels 90's",
+    "es": "Inauguración del Mesón del Vino · Ruta festera de los 90's"
+   },
+   "desc": null,
+   "id": "e006"
+  },
+  {
+   "date": "2026-10-02",
+   "time": "21:30",
+   "cat": "festa",
+   "place": "sant_marc_alcora",
+   "title": {
+    "ca": "Sopar de pa i porta amb el duo Almazahara",
+    "es": "Cena de pa i porta con el dúo Almazahara"
+   },
+   "desc": {
+    "ca": "Organitza: ACT La Picaora. Col·labora: Ajuntament d'Almassora.",
+    "es": "Organiza: ACT La Picaora. Colabora: Ayuntamiento de Almassora."
+   },
+   "id": "e007"
+  },
+  {
+   "date": "2026-10-02",
+   "time": "22:00",
+   "cat": "festa",
+   "place": "molineta",
+   "title": {
+    "ca": "Inauguració de la Zona Latina",
+    "es": "Inauguración de la Zona Latina"
+   },
+   "desc": {
+    "ca": "Amb mariachis i DJ en directe.",
+    "es": "Con mariachis y DJ en directo."
+   },
+   "id": "e008"
+  },
+  {
+   "date": "2026-10-02",
+   "time": "24:00",
+   "cat": "focs",
+   "place": "major",
+   "title": {
+    "ca": "ESCLAT DE FESTA · Inici de les festes",
+    "es": "¡CHUPINAZO! · Inicio de las fiestas"
+   },
+   "desc": {
+    "ca": "Esclat de festa d'inici de les festes de la Mare de Déu del Roser.",
+    "es": "Chupinazo de inicio de las fiestas de la Virgen del Rosario."
+   },
+   "id": "e009"
+  },
+  {
+   "date": "2026-10-02",
+   "time": "24:30",
+   "cat": "penyes",
+   "place": "major19",
+   "title": {
+    "ca": "DJ Font (penya El Barrilet)",
+    "es": "DJ Font (peña El Barrilet)"
+   },
+   "desc": {
+    "ca": "Per al seu 45 aniversari.",
+    "es": "Por su 45 aniversario."
+   },
+   "id": "e010"
+  },
+  {
+   "date": "2026-10-02",
+   "time": "24:30",
+   "cat": "penyes",
+   "place": "dolors",
+   "title": {
+    "ca": "Desde Dentro (penya El Corb · 50 aniversari)",
+    "es": "Desde Dentro (peña El Corb · 50 aniversario)"
+   },
+   "desc": null,
+   "id": "e011"
+  },
+  {
+   "date": "2026-10-02",
+   "time": "03:00",
+   "cat": "musica",
+   "place": "recinte",
+   "title": {
+    "ca": "Inauguració del Recinte Fester",
+    "es": "Inauguración del Recinte Fester"
+   },
+   "desc": {
+    "ca": "Amb DJ Monty i DJ Clare Apir.",
+    "es": "Con DJ Monty y DJ Clare Apir."
+   },
+   "id": "e012"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "11:00",
+   "cat": "penyes",
+   "place": "trinitat",
+   "title": {
+    "ca": "Concentració de la penya Gent del Bou",
+    "es": "Concentración de la peña Gent del Bou"
+   },
+   "desc": {
+    "ca": "Al c/ Trinitat. A continuació, cercavila amb la xaranga Banana Boom.",
+    "es": "En la c/ Trinidad. A continuación, pasacalle con la charanga Banana Boom."
+   },
+   "id": "e013"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "11:00",
+   "cat": "musica",
+   "place": "cristofol",
+   "title": {
+    "ca": "Tret d'eixida a la colla El Perico · Cote_Beat",
+    "es": "Pistoletazo de salida en la colla El Perico · Cote_Beat"
+   },
+   "desc": {
+    "ca": "Música electrònica al carrer.",
+    "es": "Música electrónica en la calle."
+   },
+   "id": "e014"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "13:00",
+   "cat": "bous",
+   "place": "trinitat",
+   "title": {
+    "ca": "Entrada de vaques · Fernando Mansilla",
+    "es": "Entrada de vacas · Fernando Mansilla"
+   },
+   "desc": {
+    "ca": "Pels carrers de Sant Marc, Santa Quitèria-l'Alcora i Trinitat, i prova per la Vila.",
+    "es": "Por las calles San Marcos, Santa Quiteria-Alcora y Trinidad, y prueba por la Vila."
+   },
+   "id": "e015"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "17:00",
+   "cat": "festa",
+   "place": "cultura",
+   "title": {
+    "ca": "Eixida de la reina i les dames des de la Casa de la Cultura",
+    "es": "Salida de la reina y las damas desde la Casa de la Cultura"
+   },
+   "desc": {
+    "ca": "Acompanyades per les penyes i colles, es dirigixen a la Vila.",
+    "es": "Acompañadas por las peñas y collas, se dirigen a la Vila."
+   },
+   "id": "e016"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "18:00",
+   "cat": "bous",
+   "place": "major",
+   "title": {
+    "ca": "Bous per la Vila · Ajuntament i Gent del Bou",
+    "es": "Bous per la Vila · Ayuntamiento y Gent del Bou"
+   },
+   "desc": {
+    "ca": "Eixides des de la plaça Major.",
+    "es": "Salidas desde la plaza Mayor."
+   },
+   "id": "e017"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "18:30",
+   "cat": "infantil",
+   "place": "espanya",
+   "title": {
+    "ca": "Activitats infantils · Sagals",
+    "es": "Actividades infantiles · Sagals"
+   },
+   "desc": null,
+   "id": "e018"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "18:30",
+   "cat": "musica",
+   "place": "sant_roc",
+   "title": {
+    "ca": "Remember amb DJ Javi Blasco",
+    "es": "Remember con DJ Javi Blasco"
+   },
+   "desc": null,
+   "id": "e019"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "18:30",
+   "cat": "musica",
+   "place": "sant_marc",
+   "title": {
+    "ca": "Tardeo L'Alcria Rock · Herbasana",
+    "es": "Tardeo L'Alcria Rock · Herbasana"
+   },
+   "desc": null,
+   "id": "e020"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "19:00",
+   "cat": "religios",
+   "place": "calvari",
+   "title": {
+    "ca": "Novena a la Mare de Déu del Roser",
+    "es": "Novena a la Virgen del Rosario"
+   },
+   "desc": null,
+   "id": "e021"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "19:00",
+   "cat": "musica",
+   "place": "cervantes",
+   "title": {
+    "ca": "Tardeo amb Quimbala (penya La Kliba)",
+    "es": "Tardeo con Quimbala (peña La Kliba)"
+   },
+   "desc": null,
+   "id": "e022"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "19:30",
+   "cat": "infantil",
+   "place": "major_carrer",
+   "title": {
+    "ca": "Entrada infantil de carretons",
+    "es": "Entrada infantil de carretones"
+   },
+   "desc": {
+    "ca": "Patrocina: Junta Local de Festes.",
+    "es": "Patrocina: Junta Local de Fiestas."
+   },
+   "id": "e023"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "19:30",
+   "cat": "musica",
+   "place": "leos",
+   "title": {
+    "ca": "El Showman del Serrucho (penya Gent del Bou)",
+    "es": "El Showman del Serrucho (peña Gent del Bou)"
+   },
+   "desc": null,
+   "id": "e024"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "19:30",
+   "cat": "musica",
+   "place": "sant_roc31",
+   "title": {
+    "ca": "Tardeo amb Benicai (penya La Strankà · X aniversari)",
+    "es": "Tardeo con Benicai (peña La Strankà · X aniversario)"
+   },
+   "desc": null,
+   "id": "e025"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "20:00",
+   "cat": "musica",
+   "place": "espanya",
+   "title": {
+    "ca": "Casal del Vi · Patxi Ojana",
+    "es": "Mesón del Vino · Patxi Ojana"
+   },
+   "desc": null,
+   "id": "e026"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "20:30",
+   "cat": "musica",
+   "place": "sant_marc",
+   "title": {
+    "ca": "Tardeo L'Alcria Rock · N'Rockats",
+    "es": "Tardeo L'Alcria Rock · N'Rockats"
+   },
+   "desc": null,
+   "id": "e027"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "21:00",
+   "cat": "festa",
+   "place": "espanya",
+   "title": {
+    "ca": "Truita monumental",
+    "es": "Tortilla monumental"
+   },
+   "desc": {
+    "ca": "Patrocina: Cajamar.",
+    "es": "Patrocina: Cajamar."
+   },
+   "id": "e028"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "21:00",
+   "cat": "musica",
+   "place": "molineta",
+   "title": {
+    "ca": "Artistes convidats especials a la Zona Latina",
+    "es": "Artistas invitados especiales en la Zona Latina"
+   },
+   "desc": null,
+   "id": "e029"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "22:00",
+   "cat": "musica",
+   "place": "molineta",
+   "title": {
+    "ca": "DJ en directe a la Zona Latina",
+    "es": "DJ en directo en la Zona Latina"
+   },
+   "desc": null,
+   "id": "e030"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "22:30",
+   "cat": "festa",
+   "place": "junta",
+   "title": {
+    "ca": "Repartiment de cremaet (majors de 18 anys)",
+    "es": "Reparto de cremaet (mayores de 18 años)"
+   },
+   "desc": null,
+   "id": "e031"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "23:00",
+   "cat": "festa",
+   "place": "cultura",
+   "title": {
+    "ca": "Concentració de penyes i colles a la Casa de la Cultura",
+    "es": "Concentración de peñas y collas en la Casa de la Cultura"
+   },
+   "desc": {
+    "ca": "Es trasllada a la Vila amb la xaranga Banana Boom.",
+    "es": "Traslado a la Vila con la charanga Banana Boom."
+   },
+   "id": "e032"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "23:30",
+   "cat": "bous",
+   "place": "picaora",
+   "title": {
+    "ca": "Bous embolats · Ajuntament i Gent del Bou",
+    "es": "«Bous embolats» · Ayuntamiento y Gent del Bou"
+   },
+   "desc": {
+    "ca": "Bou de l'Ajuntament amb eixida de la plaça de la Picaora i el de la penya Gent del Bou amb eixida des de la plaça Major.",
+    "es": "Toro del Ayuntamiento con salida desde la plaza de la Picaora y el de la peña Gent del Bou con salida desde la plaza Mayor."
+   },
+   "id": "e033"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "24:00",
+   "cat": "musica",
+   "place": "espanya",
+   "title": {
+    "ca": "Mojinos Escozíos",
+    "es": "Mojinos Escozíos"
+   },
+   "desc": {
+    "ca": "Concert a la plaça d'Espanya.",
+    "es": "Concierto en la plaza España."
+   },
+   "id": "e034"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "01:30",
+   "cat": "musica",
+   "place": "major19",
+   "title": {
+    "ca": "Tech house amb DJ Ximo Pacheco (penya La Kliba)",
+    "es": "Tech house con DJ Ximo Pacheco (peña La Kliba)"
+   },
+   "desc": null,
+   "id": "e035"
+  },
+  {
+   "date": "2026-10-03",
+   "time": "03:00",
+   "cat": "musica",
+   "place": "recinte",
+   "title": {
+    "ca": "Recinte Fester · Roberto Anglès, DJ Alenn i Diego Marza",
+    "es": "Recinte Fester · Roberto Anglès, DJ Alenn y Diego Marza"
+   },
+   "desc": null,
+   "id": "e036"
+  },
+  {
+   "date": "2026-10-04",
+   "time": "08:30",
+   "cat": "religios",
+   "place": "esglesia",
+   "title": {
+    "ca": "Volteig general de campanes",
+    "es": "Volteo general de campanas"
+   },
+   "desc": {
+    "ca": "Anunciant la festivitat de la Mare de Déu del Roser.",
+    "es": "Anunciando la festividad de la Virgen del Rosario."
+   },
+   "id": "e037"
+  },
+  {
+   "date": "2026-10-04",
+   "time": "10:30",
+   "cat": "religios",
+   "place": "espanya",
+   "title": {
+    "ca": "Ofrena a la Mare de Déu del Roser",
+    "es": "Ofrenda a la Virgen del Rosario"
+   },
+   "desc": {
+    "ca": "Concentració a la plaça d'Espanya i ofrena des de l'església del Crist del Calvari fins a la parròquia de la Nativitat.",
+    "es": "Concentración en la plaza de España y ofrenda desde la iglesia del Cristo del Calvario hasta la parroquia de la Natividad."
+   },
+   "id": "e038"
+  },
+  {
+   "date": "2026-10-04",
+   "time": "18:00",
+   "cat": "musica",
+   "place": "molineta",
+   "title": {
+    "ca": "Gran Festival Folklòric",
+    "es": "Gran Festival Folclórico"
+   },
+   "desc": {
+    "ca": "Una jornada dedicada a les nostres arrels i tradicions amb música i dansa.",
+    "es": "Una jornada dedicada a nuestras raíces y tradiciones con música y danza."
+   },
+   "id": "e039"
+  },
+  {
+   "date": "2026-10-04",
+   "time": "18:30",
+   "cat": "infantil",
+   "place": "espanya",
+   "title": {
+    "ca": "Activitats infantils · Imagine",
+    "es": "Actividades infantiles · Imagine"
+   },
+   "desc": null,
+   "id": "e040"
+  },
+  {
+   "date": "2026-10-04",
+   "time": "19:00",
+   "cat": "religios",
+   "place": "esglesia",
+   "title": {
+    "ca": "Missa solemne i processó",
+    "es": "Misa solemne y procesión"
+   },
+   "desc": {
+    "ca": "Presidida per Juan Ángel Tapiador Navas, amb la reina i les dames, el clergat i les autoritats. En finalitzar, gran traca amb rematada final de focs artificials.",
+    "es": "Presidida por Juan Ángel Tapiador Navas, con la reina y las damas, el clero y las autoridades. Al finalizar, gran traca con remate final de fuegos artificiales."
+   },
+   "id": "e041"
+  },
+  {
+   "date": "2026-10-04",
+   "time": "20:00",
+   "cat": "musica",
+   "place": "espanya",
+   "title": {
+    "ca": "Casal del Vi · Los Resilientes",
+    "es": "Mesón del Vino · Los Resilientes"
+   },
+   "desc": null,
+   "id": "e042"
+  },
+  {
+   "date": "2026-10-05",
+   "time": "10:00",
+   "cat": "cultura",
+   "place": "residencia",
+   "title": {
+    "ca": "Visita de la reina i les dames a la Residència",
+    "es": "Visita de la reina y las damas a la Residencia"
+   },
+   "desc": {
+    "ca": "Signatura del conveni de la partida Vila-Roja i inauguració de l'exposició «Més que arbres i rostres», amb la xaranga Banana Boom.",
+    "es": "Firma del convenio de la partida Vila-Roja e inauguración de la exposición «Més que arbres i rostres», con la charanga Banana Boom."
+   },
+   "id": "e043"
+  },
+  {
+   "date": "2026-10-05",
+   "time": "11:00",
+   "cat": "penyes",
+   "place": "trinitat",
+   "title": {
+    "ca": "Concentració de penyes i colles al c/ Trinitat",
+    "es": "Concentración de peñas y collas en la c/ Trinidad"
+   },
+   "desc": {
+    "ca": "Penyes Sant Roc, K-nut, El Duro, El Desfase, La Priva, La Kolva, La Trama, La Treba, La Falkà, La Kalimba, El Demacre, La Juerga, La Trivà i El Rollet, La Fuga, La Travessa, L'Emboscà, L'Artiste, La Katrava, La Kurda, El Porrat, La Maraña, La Traskà, La Xascà, El Vaivén, L'Estampà, La Desídia, El Desmadrao. A continuació, cercavila amb la xaranga Banana Boom.",
+    "es": "Penyes Sant Roc, K-nut, El Duro, El Desfase, La Priva, La Kolva, La Trama, La Treba, La Falkà, La Kalimba, El Demacre, La Juerga, La Trivà i El Rollet, La Fuga, La Travessa, L'Emboscà, L'Artiste, La Katrava, La Kurda, El Porrat, La Maraña, La Traskà, La Xascà, El Vaivén, L'Estampà, La Desídia, El Desmadrao. A continuación, pasacalle con la charanga Banana Boom."
+   },
+   "id": "e044"
+  },
+  {
+   "date": "2026-10-05",
+   "time": "13:00",
+   "cat": "bous",
+   "place": "trinitat",
+   "title": {
+    "ca": "Entrada de vaques · Jaime Tárrega Lucas",
+    "es": "Entrada de vacas · Jaime Tárrega Lucas"
+   },
+   "desc": {
+    "ca": "Pels carrers de Sant Marc, Santa Quitèria-l'Alcora i Trinitat, i prova per la Vila.",
+    "es": "Por las calles San Marcos, Santa Quiteria-Alcora y Trinidad, y prueba por la Vila."
+   },
+   "id": "e045"
+  },
+  {
+   "date": "2026-10-05",
+   "time": "17:00",
+   "cat": "festa",
+   "place": "cultura",
+   "title": {
+    "ca": "Eixida de la reina i les dames des de la Casa de la Cultura",
+    "es": "Salida de la reina y las damas desde la Casa de la Cultura"
+   },
+   "desc": {
+    "ca": "Acompanyades per les penyes i colles, es dirigixen a la Vila.",
+    "es": "Acompañadas por las peñas y collas, se dirigen a la Vila."
+   },
+   "id": "e046"
+  },
+  {
+   "date": "2026-10-05",
+   "time": "18:00",
+   "cat": "bous",
+   "place": "major",
+   "title": {
+    "ca": "Bous per la Vila",
+    "es": "Bous per la Vila"
+   },
+   "desc": {
+    "ca": "Penyes i colles: Sant Roc, K-nut, El Duro, El Desfase, La Priva, La Kolva, La Trama, La Treba, La Falkà, La Kalimba, El Demacre, La Juerga, La Trivà · El Rollet, La Fuga, La Travessa, L'Emboscà, L'Artiste, La Katrava, La Kurda, El Porrat, La Maraña, La Traskà, La Xascà, El Vaivén, L'Estampà, La Desídia, El Desmadrao. Eixides des de la plaça Major.",
+    "es": "Peñas y collas: Sant Roc, K-nut, El Duro, El Desfase, La Priva, La Kolva, La Trama, La Treba, La Falkà, La Kalimba, El Demacre, La Juerga, La Trivà · El Rollet, La Fuga, La Travessa, L'Emboscà, L'Artiste, La Katrava, La Kurda, El Porrat, La Maraña, La Traskà, La Xascà, El Vaivén, L'Estampà, La Desídia, El Desmadrao. Salidas desde la plaza Mayor."
+   },
+   "id": "e047"
+  },
+  {
+   "date": "2026-10-05",
+   "time": "18:30",
+   "cat": "infantil",
+   "place": "espanya",
+   "title": {
+    "ca": "Activitats infantils · Jara Túria",
+    "es": "Actividades infantiles · Jara Túria"
+   },
+   "desc": null,
+   "id": "e048"
+  },
+  {
+   "date": "2026-10-05",
+   "time": "20:00",
+   "cat": "musica",
+   "place": "espanya",
+   "title": {
+    "ca": "Casal del Vi · Alejandro Díaz",
+    "es": "Mesón del Vino · Alejandro Díaz"
+   },
+   "desc": null,
+   "id": "e049"
+  },
+  {
+   "date": "2026-10-05",
+   "time": "22:30",
+   "cat": "festa",
+   "place": "junta",
+   "title": {
+    "ca": "Repartiment de cremaet (majors de 18 anys)",
+    "es": "Reparto de cremaet (mayores de 18 años)"
+   },
+   "desc": null,
+   "id": "e050"
+  },
+  {
+   "date": "2026-10-05",
+   "time": "23:00",
+   "cat": "festa",
+   "place": "cultura",
+   "title": {
+    "ca": "Concentració de penyes i colles a la Casa de la Cultura",
+    "es": "Concentración de peñas y collas en la Casa de la Cultura"
+   },
+   "desc": {
+    "ca": "Es trasllada a la Vila amb la xaranga Banana Boom.",
+    "es": "Traslado a la Vila con la charanga Banana Boom."
+   },
+   "id": "e051"
+  },
+  {
+   "date": "2026-10-05",
+   "time": "23:30",
+   "cat": "bous",
+   "place": "picaora",
+   "title": {
+    "ca": "Bous embolats",
+    "es": "«Bous embolats»"
+   },
+   "desc": {
+    "ca": "Penyes i colles: Picaora: El Rollet, La Fuga, La Travessa, L'Emboscà, L'Artiste, La Katrava, La Kurda, El Porrat, La Maraña, La Traskà, La Xascà, El Vaivén, L'Estampà, La Desídia, El Desmadrao · Plaça Major: Sant Roc, K-nut, El Duro, El Desfase, La Priva, La Kolva, La Trama, La Treba, La Falkà, La Kalimba, El Demacre, La Juerga, La Trivà.",
+    "es": "Peñas y collas: Picaora: El Rollet, La Fuga, La Travessa, L'Emboscà, L'Artiste, La Katrava, La Kurda, El Porrat, La Maraña, La Traskà, La Xascà, El Vaivén, L'Estampà, La Desídia, El Desmadrao · Plaça Major: Sant Roc, K-nut, El Duro, El Desfase, La Priva, La Kolva, La Trama, La Treba, La Falkà, La Kalimba, El Demacre, La Juerga, La Trivà."
+   },
+   "id": "e052"
+  },
+  {
+   "date": "2026-10-06",
+   "time": "11:00",
+   "cat": "majors",
+   "place": "residencia",
+   "title": {
+    "ca": "Matí de copla espanyola amb Juanra Castillo",
+    "es": "Mañana de copla española con Juanra Castillo"
+   },
+   "desc": null,
+   "id": "e053"
+  },
+  {
+   "date": "2026-10-06",
+   "time": "11:00",
+   "cat": "penyes",
+   "place": "trinitat",
+   "title": {
+    "ca": "Concentració de penyes i colles al c/ Trinitat",
+    "es": "Concentración de peñas y collas en la c/ Trinidad"
+   },
+   "desc": {
+    "ca": "Penyes Aficionats al Bou i El Comboi. A continuació, cercavila amb la xaranga Banana Boom.",
+    "es": "Penyes Aficionats al Bou i El Comboi. A continuación, pasacalle con la charanga Banana Boom."
+   },
+   "id": "e054"
+  },
+  {
+   "date": "2026-10-06",
+   "time": "13:00",
+   "cat": "bous",
+   "place": "trinitat",
+   "title": {
+    "ca": "Entrada de vaques · Hermanos Bellés",
+    "es": "Entrada de vacas · Hermanos Bellés"
+   },
+   "desc": {
+    "ca": "Pels carrers de Sant Marc, Santa Quitèria-l'Alcora i Trinitat, i prova per la Vila.",
+    "es": "Por las calles San Marcos, Santa Quiteria-Alcora y Trinidad, y prueba por la Vila."
+   },
+   "id": "e055"
+  },
+  {
+   "date": "2026-10-06",
+   "time": "17:00",
+   "cat": "festa",
+   "place": "cultura",
+   "title": {
+    "ca": "Eixida de la reina i les dames des de la Casa de la Cultura",
+    "es": "Salida de la reina y las damas desde la Casa de la Cultura"
+   },
+   "desc": {
+    "ca": "Acompanyades per les penyes i colles, es dirigixen a la Vila.",
+    "es": "Acompañadas por las peñas y collas, se dirigen a la Vila."
+   },
+   "id": "e056"
+  },
+  {
+   "date": "2026-10-06",
+   "time": "18:00",
+   "cat": "bous",
+   "place": "major",
+   "title": {
+    "ca": "Bous per la Vila",
+    "es": "Bous per la Vila"
+   },
+   "desc": {
+    "ca": "Penyes i colles: Aficionats al Bou · El Comboi. Eixides des de la plaça Major.",
+    "es": "Peñas y collas: Aficionats al Bou · El Comboi. Salidas desde la plaza Mayor."
+   },
+   "id": "e057"
+  },
+  {
+   "date": "2026-10-06",
+   "time": "18:30",
+   "cat": "infantil",
+   "place": "espanya",
+   "title": {
+    "ca": "Activitats infantils · Splai Teatre",
+    "es": "Actividades infantiles · Splai Teatre"
+   },
+   "desc": null,
+   "id": "e058"
+  },
+  {
+   "date": "2026-10-06",
+   "time": "19:00",
+   "cat": "musica",
+   "place": "leos",
+   "title": {
+    "ca": "Tardeo amb DJ Alfonso (penya Aficionats al Bou)",
+    "es": "Tardeo con DJ Alfonso (peña Aficionats al Bou)"
+   },
+   "desc": null,
+   "id": "e059"
+  },
+  {
+   "date": "2026-10-06",
+   "time": "20:00",
+   "cat": "musica",
+   "place": "espanya",
+   "title": {
+    "ca": "Casal del Vi · Rumba Sierra",
+    "es": "Mesón del Vino · Rumba Sierra"
+   },
+   "desc": null,
+   "id": "e060"
+  },
+  {
+   "date": "2026-10-06",
+   "time": "22:30",
+   "cat": "festa",
+   "place": "junta",
+   "title": {
+    "ca": "Repartiment de cremaet (majors de 18 anys)",
+    "es": "Reparto de cremaet (mayores de 18 años)"
+   },
+   "desc": null,
+   "id": "e061"
+  },
+  {
+   "date": "2026-10-06",
+   "time": "23:00",
+   "cat": "festa",
+   "place": "cultura",
+   "title": {
+    "ca": "Concentració de penyes i colles a la Casa de la Cultura",
+    "es": "Concentración de peñas y collas en la Casa de la Cultura"
+   },
+   "desc": {
+    "ca": "Es trasllada a la Vila amb la xaranga Banana Boom.",
+    "es": "Traslado a la Vila con la charanga Banana Boom."
+   },
+   "id": "e062"
+  },
+  {
+   "date": "2026-10-06",
+   "time": "23:30",
+   "cat": "bous",
+   "place": "major",
+   "title": {
+    "ca": "Bous embolats",
+    "es": "«Bous embolats»"
+   },
+   "desc": {
+    "ca": "Penyes i colles: El Comboi · Aficionats al Bou.",
+    "es": "Peñas y collas: El Comboi · Aficionats al Bou."
+   },
+   "id": "e063"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "10:00",
+   "cat": "cultura",
+   "place": "alzheimer",
+   "title": {
+    "ca": "Visita de la reina i les dames a la Unitat de Respir d'Alzheimer",
+    "es": "Visita de la reina y las damas a la Unidad de Respiro de Alzheimer"
+   },
+   "desc": {
+    "ca": "Amb la xaranga Banana Boom.",
+    "es": "Con la charanga Banana Boom."
+   },
+   "id": "e064"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "11:00",
+   "cat": "majors",
+   "place": "residencia",
+   "title": {
+    "ca": "Matí musical «Allà vas, cabàs» amb Pepe Falomir, Dori & Friends",
+    "es": "Mañana musical «Allà vas, cabàs» con Pepe Falomir, Dori & Friends"
+   },
+   "desc": null,
+   "id": "e065"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "11:00",
+   "cat": "penyes",
+   "place": "trinitat",
+   "title": {
+    "ca": "Concentració de penyes i colles al c/ Trinitat",
+    "es": "Concentración de peñas y collas en la c/ Trinidad"
+   },
+   "desc": {
+    "ca": "Penyes ACT La Picaora, El Jaleo, El Bureo i Els Vint, La Brusa, La Colla, Els Casats, L'Aberració, La Galbana, L'Estocà, La Tribu, Tots Tancats, La Kalaña, L'Embolic, El Deklive, El Descaro, La Tabarra, La Jarana, La Xabola. A continuació, cercavila amb la xaranga Banana Boom.",
+    "es": "Penyes ACT La Picaora, El Jaleo, El Bureo i Els Vint, La Brusa, La Colla, Els Casats, L'Aberració, La Galbana, L'Estocà, La Tribu, Tots Tancats, La Kalaña, L'Embolic, El Deklive, El Descaro, La Tabarra, La Jarana, La Xabola. A continuación, pasacalle con la charanga Banana Boom."
+   },
+   "id": "e066"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "13:00",
+   "cat": "bous",
+   "place": "trinitat",
+   "title": {
+    "ca": "Entrada de vaques · Vicente Benavent",
+    "es": "Entrada de vacas · Vicente Benavent"
+   },
+   "desc": {
+    "ca": "Pels carrers de Sant Marc, Santa Quitèria-l'Alcora i Trinitat, i prova per la Vila.",
+    "es": "Por las calles San Marcos, Santa Quiteria-Alcora y Trinidad, y prueba por la Vila."
+   },
+   "id": "e067"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "17:00",
+   "cat": "festa",
+   "place": "cultura",
+   "title": {
+    "ca": "Eixida de la reina i les dames des de la Casa de la Cultura",
+    "es": "Salida de la reina y las damas desde la Casa de la Cultura"
+   },
+   "desc": {
+    "ca": "Acompanyades per les penyes i colles, es dirigixen a la Vila.",
+    "es": "Acompañadas por las peñas y collas, se dirigen a la Vila."
+   },
+   "id": "e068"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "18:00",
+   "cat": "bous",
+   "place": "major",
+   "title": {
+    "ca": "Bous per la Vila",
+    "es": "Bous per la Vila"
+   },
+   "desc": {
+    "ca": "Penyes i colles: Picaora: ACT La Picaora, El Jaleo, El Bureo · Plaça Major: Els Vint, La Brusa, La Colla, Els Casats, L'Aberració, La Galbana, L'Estocà, La Tribu, Tots Tancats, La Kalaña, L'Embolic, El Deklive, El Descaro, La Tabarra, La Jarana, La Xabola. Eixides des de la plaça Major.",
+    "es": "Peñas y collas: Picaora: ACT La Picaora, El Jaleo, El Bureo · Plaça Major: Els Vint, La Brusa, La Colla, Els Casats, L'Aberració, La Galbana, L'Estocà, La Tribu, Tots Tancats, La Kalaña, L'Embolic, El Deklive, El Descaro, La Tabarra, La Jarana, La Xabola. Salidas desde la plaza Mayor."
+   },
+   "id": "e069"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "18:30",
+   "cat": "infantil",
+   "place": "botanic",
+   "title": {
+    "ca": "Activitats infantils · Wanda",
+    "es": "Actividades infantiles · Wanda"
+   },
+   "desc": null,
+   "id": "e070"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "19:00",
+   "cat": "majors",
+   "place": "pere_cornell",
+   "title": {
+    "ca": "Dia del Major · Tribut a Julio Iglesias",
+    "es": "Día del Mayor · Tributo a Julio Iglesias"
+   },
+   "desc": {
+    "ca": "Obertura de portes a les 18.15 h i berenar per als inscrits (empadronats a Almassora nascuts el 1966 o abans).",
+    "es": "Apertura de puertas a las 18.15 h y merienda para los inscritos (empadronados en Almassora nacidos en 1966 o antes)."
+   },
+   "id": "e071"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "20:30",
+   "cat": "musica",
+   "place": "espanya",
+   "title": {
+    "ca": "Casal del Vi · Fabián Sánchez",
+    "es": "Mesón del Vino · Fabián Sánchez"
+   },
+   "desc": null,
+   "id": "e072"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "22:30",
+   "cat": "festa",
+   "place": "junta",
+   "title": {
+    "ca": "Repartiment de cremaet (majors de 18 anys)",
+    "es": "Reparto de cremaet (mayores de 18 años)"
+   },
+   "desc": null,
+   "id": "e073"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "23:00",
+   "cat": "festa",
+   "place": "cultura",
+   "title": {
+    "ca": "Concentració de penyes i colles a la Casa de la Cultura",
+    "es": "Concentración de peñas y collas en la Casa de la Cultura"
+   },
+   "desc": {
+    "ca": "Es trasllada a la Vila amb la xaranga Banana Boom.",
+    "es": "Traslado a la Vila con la charanga Banana Boom."
+   },
+   "id": "e074"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "23:30",
+   "cat": "bous",
+   "place": "major",
+   "title": {
+    "ca": "Bous embolats",
+    "es": "«Bous embolats»"
+   },
+   "desc": {
+    "ca": "Penyes i colles: Plaça Major: Els Vint, La Brusa, La Colla, Els Casats, L'Aberració, La Galbana, L'Estocà, La Tribu, Tots Tancats, La Kalaña, L'Embolic, El Deklive, El Descaro, La Tabarra, La Jarana, La Xabola · Picaora: ACT La Picaora, El Jaleo, El Bureo.",
+    "es": "Peñas y collas: Plaça Major: Els Vint, La Brusa, La Colla, Els Casats, L'Aberració, La Galbana, L'Estocà, La Tribu, Tots Tancats, La Kalaña, L'Embolic, El Deklive, El Descaro, La Tabarra, La Jarana, La Xabola · Picaora: ACT La Picaora, El Jaleo, El Bureo."
+   },
+   "id": "e075"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "10:00",
+   "cat": "cultura",
+   "place": "molas",
+   "title": {
+    "ca": "Visita de la reina i les dames a la Residència Maria Rosa Molas",
+    "es": "Visita de la reina y las damas a la Residencia Maria Rosa Molas"
+   },
+   "desc": {
+    "ca": "Amb la xaranga Banana Boom.",
+    "es": "Con la charanga Banana Boom."
+   },
+   "id": "e076"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "11:00",
+   "cat": "festa",
+   "place": "tasqueta",
+   "title": {
+    "ca": "Gran Bingo Musical",
+    "es": "Gran Bingo Musical"
+   },
+   "desc": {
+    "ca": "Patrocina: penya Amigues del Bou.",
+    "es": "Patrocina: peña Amigues del Bou."
+   },
+   "id": "e077"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "11:00",
+   "cat": "majors",
+   "place": "residencia",
+   "title": {
+    "ca": "Música per l'Eternitat · Elena Greandia",
+    "es": "Música per l'Eternitat · Elena Greandia"
+   },
+   "desc": {
+    "ca": "Experiència de plena atenció.",
+    "es": "Experiencia de atención plena."
+   },
+   "id": "e078"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "11:00",
+   "cat": "penyes",
+   "place": "trinitat",
+   "title": {
+    "ca": "Concentració de penyes i colles al c/ Trinitat",
+    "es": "Concentración de peñas y collas en la c/ Trinidad"
+   },
+   "desc": {
+    "ca": "Penyes Els Penjats, El Barrilet, El Racó, T'Empujen, El Gavell, El Corb, Els Clafidors, San Fermín, Amigues del Bou, El Roser i El Polp, El Bocao, Gamusinos, La Jerga, La Tremba, La Kliba, La Kalatra, Bufa la Gamba, El Desdén, El Intento, La Strankà, La Trenkà, L'Avagelio, El Jolgorio, La Tolka, Joventut Taurina. A continuació, cercavila amb la xaranga Banana Boom.",
+    "es": "Penyes Els Penjats, El Barrilet, El Racó, T'Empujen, El Gavell, El Corb, Els Clafidors, San Fermín, Amigues del Bou, El Roser i El Polp, El Bocao, Gamusinos, La Jerga, La Tremba, La Kliba, La Kalatra, Bufa la Gamba, El Desdén, El Intento, La Strankà, La Trenkà, L'Avagelio, El Jolgorio, La Tolka, Joventut Taurina. A continuación, pasacalle con la charanga Banana Boom."
+   },
+   "id": "e079"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "13:00",
+   "cat": "bous",
+   "place": "trinitat",
+   "title": {
+    "ca": "Entrada de vaques · La Paloma",
+    "es": "Entrada de vacas · La Paloma"
+   },
+   "desc": {
+    "ca": "Pels carrers de Sant Marc, Santa Quitèria-l'Alcora i Trinitat, i prova per la Vila.",
+    "es": "Por las calles San Marcos, Santa Quiteria-Alcora y Trinidad, y prueba por la Vila."
+   },
+   "id": "e080"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "13:30",
+   "cat": "penyes",
+   "place": "major19",
+   "title": {
+    "ca": "Cervesa i faves a gogó (penya El Barrilet)",
+    "es": "Cerveza y fabes a gogó (peña El Barrilet)"
+   },
+   "desc": {
+    "ca": "Per a tots els assistents. Patrocina: FORTEX360. Fins a les 14.30 h.",
+    "es": "Para todos los asistentes. Patrocina: FORTEX360. Hasta las 14.30 h."
+   },
+   "id": "e081"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "17:00",
+   "cat": "festa",
+   "place": "cultura",
+   "title": {
+    "ca": "Eixida de la reina i les dames des de la Casa de la Cultura",
+    "es": "Salida de la reina y las damas desde la Casa de la Cultura"
+   },
+   "desc": {
+    "ca": "Acompanyades per les penyes i colles, es dirigixen a la Vila.",
+    "es": "Acompañadas por las peñas y collas, se dirigen a la Vila."
+   },
+   "id": "e082"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "18:00",
+   "cat": "bous",
+   "place": "major",
+   "title": {
+    "ca": "Bous per la Vila",
+    "es": "Bous per la Vila"
+   },
+   "desc": {
+    "ca": "Penyes i colles: Els Penjats, El Barrilet, El Racó, T'Empujen, El Gavell, El Corb, Els Clafidors, San Fermín, Amigues del Bou, El Roser · El Polp, El Bocao, Gamusinos, La Jerga, La Tremba, La Kliba, La Kalatra, Bufa la Gamba, El Desdén, El Intento, La Strankà, La Trenkà, L'Avagelio, El Jolgorio, La Tolka, Joventut Taurina. Eixides des de la plaça Major.",
+    "es": "Peñas y collas: Els Penjats, El Barrilet, El Racó, T'Empujen, El Gavell, El Corb, Els Clafidors, San Fermín, Amigues del Bou, El Roser · El Polp, El Bocao, Gamusinos, La Jerga, La Tremba, La Kliba, La Kalatra, Bufa la Gamba, El Desdén, El Intento, La Strankà, La Trenkà, L'Avagelio, El Jolgorio, La Tolka, Joventut Taurina. Salidas desde la plaza Mayor."
+   },
+   "id": "e083"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "18:30",
+   "cat": "infantil",
+   "place": "espanya",
+   "title": {
+    "ca": "Activitats infantils · Tic-Tac Animacions",
+    "es": "Actividades infantiles · Tic-Tac Animacions"
+   },
+   "desc": null,
+   "id": "e084"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "19:30",
+   "cat": "musica",
+   "place": "leos",
+   "title": {
+    "ca": "Tardeo amb Cuerda pa Rato (penya T'Empujen · XX aniversari)",
+    "es": "Tardeo con Cuerda pa Rato (peña T'Empujen · XX aniversario)"
+   },
+   "desc": {
+    "ca": "Col·labora: Pub Leos.",
+    "es": "Colabora: Pub Leos."
+   },
+   "id": "e085"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "20:00",
+   "cat": "musica",
+   "place": "espanya",
+   "title": {
+    "ca": "Casal del Vi · Generación Z",
+    "es": "Mesón del Vino · Generación Z"
+   },
+   "desc": null,
+   "id": "e086"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "21:00",
+   "cat": "musica",
+   "place": "molineta",
+   "title": {
+    "ca": "Ball i fusió · Salsa en directe",
+    "es": "Baile y fusión · Salsa en directo"
+   },
+   "desc": null,
+   "id": "e087"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "22:00",
+   "cat": "musica",
+   "place": "molineta",
+   "title": {
+    "ca": "DJ en directe a la Zona Latina",
+    "es": "DJ en directo en la Zona Latina"
+   },
+   "desc": null,
+   "id": "e088"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "22:30",
+   "cat": "festa",
+   "place": "junta",
+   "title": {
+    "ca": "Repartiment de cremaet (majors de 18 anys)",
+    "es": "Reparto de cremaet (mayores de 18 años)"
+   },
+   "desc": null,
+   "id": "e089"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "23:00",
+   "cat": "festa",
+   "place": "cultura",
+   "title": {
+    "ca": "Concentració de penyes i colles a la Casa de la Cultura",
+    "es": "Concentración de peñas y collas en la Casa de la Cultura"
+   },
+   "desc": {
+    "ca": "Es trasllada a la Vila amb la xaranga Banana Boom.",
+    "es": "Traslado a la Vila con la charanga Banana Boom."
+   },
+   "id": "e090"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "23:30",
+   "cat": "musica",
+   "place": "leos",
+   "title": {
+    "ca": "Daniel MuBe (penya T'Empujen · XX aniversari)",
+    "es": "Daniel MuBe (peña T'Empujen · XX aniversario)"
+   },
+   "desc": null,
+   "id": "e091"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "23:30",
+   "cat": "bous",
+   "place": "major",
+   "title": {
+    "ca": "Bous embolats",
+    "es": "«Bous embolats»"
+   },
+   "desc": {
+    "ca": "Penyes i colles: Plaça Major: El Polp, El Bocao, Gamusinos, La Jerga, La Tremba, La Kliba, La Kalatra, Bufa la Gamba, El Desdén, El Intento, La Strankà, La Trenkà, L'Avagelio, El Jolgorio, La Tolka, Joventut Taurina · Els Penjats, El Barrilet, El Racó, T'Empujen, El Gavell, El Corb, Els Clafidors, San Fermín, Amigues del Bou, El Roser.",
+    "es": "Peñas y collas: Plaça Major: El Polp, El Bocao, Gamusinos, La Jerga, La Tremba, La Kliba, La Kalatra, Bufa la Gamba, El Desdén, El Intento, La Strankà, La Trenkà, L'Avagelio, El Jolgorio, La Tolka, Joventut Taurina · Els Penjats, El Barrilet, El Racó, T'Empujen, El Gavell, El Corb, Els Clafidors, San Fermín, Amigues del Bou, El Roser."
+   },
+   "id": "e092"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "03:00",
+   "cat": "musica",
+   "place": "recinte",
+   "title": {
+    "ca": "Festa Indalo · DJ Pixo i DJ Blanch",
+    "es": "Fiesta Indalo · DJ Pixo y DJ Blanch"
+   },
+   "desc": null,
+   "id": "e093"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "11:00",
+   "cat": "cultura",
+   "place": "jaume",
+   "title": {
+    "ca": "Ofrena floral al rei Jaume I",
+    "es": "Ofrenda floral al rey Jaime I"
+   },
+   "desc": {
+    "ca": "A continuació, ofrena al bust de Pere Cornell, Himne Regional (tenor Javier Bovea) i ball de l'Associació Cultural El Torrelló.",
+    "es": "A continuación, ofrenda al busto de Pere Cornell, Himno Regional (tenor Javier Bovea) y baile de la Associació Cultural El Torrelló."
+   },
+   "id": "e094"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "13:00",
+   "cat": "bous",
+   "place": "trinitat",
+   "title": {
+    "ca": "Entrada de vaques · Hermanos Cali",
+    "es": "Entrada de vacas · Hermanos Cali"
+   },
+   "desc": {
+    "ca": "Pels carrers de Sant Marc, Santa Quitèria-l'Alcora i Trinitat, i prova per la Vila.",
+    "es": "Por las calles San Marcos, Santa Quiteria-Alcora y Trinidad, y prueba por la Vila."
+   },
+   "id": "e095"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "18:00",
+   "cat": "bous",
+   "place": "vila",
+   "title": {
+    "ca": "Vesprada de vaques · Vicente Benavent",
+    "es": "Tarde de vacas · Vicente Benavent"
+   },
+   "desc": null,
+   "id": "e096"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "18:30",
+   "cat": "infantil",
+   "place": "victimes",
+   "title": {
+    "ca": "Activitats infantils · Superanimaciones",
+    "es": "Actividades infantiles · Superanimaciones"
+   },
+   "desc": null,
+   "id": "e097"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "19:00",
+   "cat": "penyes",
+   "place": "sant_marc_picaora",
+   "title": {
+    "ca": "Festa remember (penya El Corb · 50 aniversari)",
+    "es": "Fiesta remember (peña El Corb · 50 aniversario)"
+   },
+   "desc": {
+    "ca": "DJ Tonet Marzà, Paco Moliner, Jorge Killer i Juanvi Dimensión.",
+    "es": "DJ Tonet Marzà, Paco Moliner, Jorge Killer y Juanvi Dimensión."
+   },
+   "id": "e098"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "19:30",
+   "cat": "festa",
+   "place": "picaora",
+   "title": {
+    "ca": "II Concurs de llançament de carretilla",
+    "es": "II Concurso de lanzamiento de carretilla"
+   },
+   "desc": {
+    "ca": "Patrocina: penya El Jaleo.",
+    "es": "Patrocina: peña El Jaleo."
+   },
+   "id": "e099"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "20:00",
+   "cat": "musica",
+   "place": "espanya",
+   "title": {
+    "ca": "Casal del Vi · El Show del Serrucho",
+    "es": "Mesón del Vino · El Show del Serrucho"
+   },
+   "desc": null,
+   "id": "e100"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "21:30",
+   "cat": "festa",
+   "place": "espanya",
+   "title": {
+    "ca": "Sopar de pa i porta amb orquestra-espectacle",
+    "es": "Cena de pa i porta con orquesta-espectáculo"
+   },
+   "desc": {
+    "ca": "Parc infantil per als més xicotets (Tic-Tac Animacions). Inscripcions fins al 2 d'octubre a l'Ajuntament.",
+    "es": "Parque infantil para los más pequeños (Tic-Tac Animacions). Inscripciones hasta el 2 de octubre en el Ayuntamiento."
+   },
+   "id": "e101"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "22:00",
+   "cat": "musica",
+   "place": "molineta",
+   "title": {
+    "ca": "DJ en directe a la Zona Latina",
+    "es": "DJ en directo en la Zona Latina"
+   },
+   "desc": null,
+   "id": "e102"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "23:00",
+   "cat": "musica",
+   "place": "molineta",
+   "title": {
+    "ca": "Gran show de timbals",
+    "es": "Gran show de timbales"
+   },
+   "desc": null,
+   "id": "e103"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "24:00",
+   "cat": "penyes",
+   "place": "sant_joaquim",
+   "title": {
+    "ca": "Remember anys 90 i 2000 (penya San Fermín)",
+    "es": "Remember años 90 y 2000 (peña San Fermín)"
+   },
+   "desc": null,
+   "id": "e104"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "24:00",
+   "cat": "penyes",
+   "place": "sant_agusti",
+   "title": {
+    "ca": "Discomòbil (penya La Desidia)",
+    "es": "Discomóvil (peña La Desidia)"
+   },
+   "desc": null,
+   "id": "e105"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "01:00",
+   "cat": "bous",
+   "place": "vila",
+   "title": {
+    "ca": "Vaques enfundades · Hermanos Bellés",
+    "es": "Vacas enfundadas · Hermanos Bellés"
+   },
+   "desc": {
+    "ca": "Amb animació, obstacles, música i locutor. Col·labora: ACT Penya Santa Quitèria.",
+    "es": "Con animación, obstáculos, música y locutor. Colabora: ACT Peña Santa Quitèria."
+   },
+   "id": "e106"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "03:00",
+   "cat": "musica",
+   "place": "recinte",
+   "title": {
+    "ca": "Recinte Fester · DJ Alenn i Sergi Mora",
+    "es": "Recinte Fester · DJ Alenn y Sergi Mora"
+   },
+   "desc": null,
+   "id": "e107"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "11:00",
+   "cat": "penyes",
+   "place": "trinitat",
+   "title": {
+    "ca": "Concentració de penyes i colles al c/ Trinitat",
+    "es": "Concentración de peñas y collas en la c/ Trinidad"
+   },
+   "desc": {
+    "ca": "Penyes El Caragol, El Trasto i Aficionades Taurines. A continuació, cercavila amb la xaranga Banana Boom.",
+    "es": "Penyes El Caragol, El Trasto i Aficionades Taurines. A continuación, pasacalle con la charanga Banana Boom."
+   },
+   "id": "e108"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "13:00",
+   "cat": "bous",
+   "place": "trinitat",
+   "title": {
+    "ca": "Entrada de vaques · Sergio Rúa",
+    "es": "Entrada de vacas · Sergio Rúa"
+   },
+   "desc": {
+    "ca": "Pels carrers de Sant Marc, Santa Quitèria-l'Alcora i Trinitat, i prova per la Vila.",
+    "es": "Por las calles San Marcos, Santa Quiteria-Alcora y Trinidad, y prueba por la Vila."
+   },
+   "id": "e109"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "17:00",
+   "cat": "festa",
+   "place": "cultura",
+   "title": {
+    "ca": "Eixida de la reina i les dames des de la Casa de la Cultura",
+    "es": "Salida de la reina y las damas desde la Casa de la Cultura"
+   },
+   "desc": {
+    "ca": "Acompanyades per les penyes i colles, es dirigixen a la Vila.",
+    "es": "Acompañadas por las peñas y collas, se dirigen a la Vila."
+   },
+   "id": "e110"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "18:00",
+   "cat": "bous",
+   "place": "major",
+   "title": {
+    "ca": "Bous per la Vila",
+    "es": "Bous per la Vila"
+   },
+   "desc": {
+    "ca": "Penyes i colles: El Caragol · El Trasto · Aficionades Taurines. Eixides des de la plaça Major.",
+    "es": "Peñas y collas: El Caragol · El Trasto · Aficionades Taurines. Salidas desde la plaza Mayor."
+   },
+   "id": "e111"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "18:30",
+   "cat": "infantil",
+   "place": "espanya",
+   "title": {
+    "ca": "Activitats infantils · Kim",
+    "es": "Actividades infantiles · Kim"
+   },
+   "desc": null,
+   "id": "e112"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "18:30",
+   "cat": "musica",
+   "place": "sant_roc",
+   "title": {
+    "ca": "Remember amb DJ Vicente Añó & Tonet Marzá",
+    "es": "Remember con DJ Vicente Añó & Tonet Marzá"
+   },
+   "desc": null,
+   "id": "e113"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "19:00",
+   "cat": "musica",
+   "place": "leos",
+   "title": {
+    "ca": "Tardeo amb DJ Pixo (ACT Aficionades Taurines)",
+    "es": "Tardeo con DJ Pixo (ACT Aficionades Taurines)"
+   },
+   "desc": null,
+   "id": "e114"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "19:30",
+   "cat": "bous",
+   "place": "major_carrer",
+   "title": {
+    "ca": "Transhumància urbana de ramat mestís",
+    "es": "Trashumancia urbana de ganado mestizo"
+   },
+   "desc": {
+    "ca": "Pel carrer Major. Patrocina: Associació de Penyes Taurines d'Almassora.",
+    "es": "Por la c/ Mayor. Patrocina: Associació de Penyes Taurines d'Almassora."
+   },
+   "id": "e115"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "20:00",
+   "cat": "musica",
+   "place": "espanya",
+   "title": {
+    "ca": "Casal del Vi · A contracorriente (tribut a El Canto del Loco)",
+    "es": "Mesón del Vino · A contracorriente (tributo a El Canto del Loco)"
+   },
+   "desc": null,
+   "id": "e116"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "21:00",
+   "cat": "bous",
+   "place": "trinitat",
+   "title": {
+    "ca": "Tombet de bou",
+    "es": "Tombet de bou"
+   },
+   "desc": {
+    "ca": "Patrocina: CaixAlmassora.",
+    "es": "Patrocina: CaixAlmassora."
+   },
+   "id": "e117"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "22:00",
+   "cat": "musica",
+   "place": "molineta",
+   "title": {
+    "ca": "DJ en directe a la Zona Latina",
+    "es": "DJ en directo en la Zona Latina"
+   },
+   "desc": null,
+   "id": "e118"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "22:30",
+   "cat": "festa",
+   "place": "junta",
+   "title": {
+    "ca": "Repartiment de cremaet (majors de 18 anys)",
+    "es": "Reparto de cremaet (mayores de 18 años)"
+   },
+   "desc": null,
+   "id": "e119"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "23:00",
+   "cat": "musica",
+   "place": "molineta",
+   "title": {
+    "ca": "Gran Parradón Vallenato",
+    "es": "Gran Parradón Vallenato"
+   },
+   "desc": null,
+   "id": "e120"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "23:00",
+   "cat": "festa",
+   "place": "cultura",
+   "title": {
+    "ca": "Concentració de penyes i colles a la Casa de la Cultura",
+    "es": "Concentración de peñas y collas en la Casa de la Cultura"
+   },
+   "desc": {
+    "ca": "Es trasllada a la Vila amb la xaranga Banana Boom.",
+    "es": "Traslado a la Vila con la charanga Banana Boom."
+   },
+   "id": "e121"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "23:30",
+   "cat": "bous",
+   "place": "major",
+   "title": {
+    "ca": "Bous embolats",
+    "es": "«Bous embolats»"
+   },
+   "desc": {
+    "ca": "Penyes i colles: Aficionades Taurines · El Caragol · El Trasto.",
+    "es": "Peñas y collas: Aficionades Taurines · El Caragol · El Trasto."
+   },
+   "id": "e122"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "24:00",
+   "cat": "musica",
+   "place": "leos",
+   "title": {
+    "ca": "Vudú (ACT Aficionades Taurines)",
+    "es": "Vudú (ACT Aficionades Taurines)"
+   },
+   "desc": {
+    "ca": "Col·labora: Pub Leos.",
+    "es": "Colabora: Pub Leos."
+   },
+   "id": "e123"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "24:00",
+   "cat": "musica",
+   "place": "espanya",
+   "title": {
+    "ca": "Tribut a El Barrio",
+    "es": "Tributo a El Barrio"
+   },
+   "desc": null,
+   "id": "e124"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "01:00",
+   "cat": "musica",
+   "place": "piscina",
+   "title": {
+    "ca": "Orquestra espectacle de gran format",
+    "es": "Orquesta espectáculo de gran formato"
+   },
+   "desc": null,
+   "id": "e125"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "03:00",
+   "cat": "musica",
+   "place": "recinte",
+   "title": {
+    "ca": "Recinte Fester · Diego Marza, DJ Monty i Roberto Anglès",
+    "es": "Recinte Fester · Diego Marza, DJ Monty y Roberto Anglès"
+   },
+   "desc": null,
+   "id": "e126"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "07:00",
+   "cat": "festa",
+   "place": "les_goles",
+   "title": {
+    "ca": "Concurs Social de Pesca",
+    "es": "Concurso Social de Pesca"
+   },
+   "desc": {
+    "ca": "Concentració i inscripcions al Bar Les Goles a les 6.00 h. Lliurament de trofeus a les 14.00 h, a la platja.",
+    "es": "Concentración e inscripciones en el Bar Les Goles a las 6.00 h. Entrega de trofeos a las 14.00 h, en la playa."
+   },
+   "id": "e127"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "14:00",
+   "cat": "festa",
+   "place": "molineta",
+   "title": {
+    "ca": "Gran Sancochada Colombiana",
+    "es": "Gran Sancochada Colombiana"
+   },
+   "desc": {
+    "ca": "Dia d'activitats recreatives per a tota la família.",
+    "es": "Día de actividades recreativas para toda la familia."
+   },
+   "id": "e128"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "17:00",
+   "cat": "infantil",
+   "place": "piscina",
+   "title": {
+    "ca": "Dia del Xiquet (3 a 12 anys)",
+    "es": "Día del Niño (3 a 12 años)"
+   },
+   "desc": {
+    "ca": "Làser Combat, Monitors, Viunatura i berenar per als xiquets inscrits (inscripcions fins al 2 d'octubre a l'Ajuntament).",
+    "es": "Laser Combat, Monitors, Viunatura y merienda para los niños inscritos (inscripciones hasta el 2 de octubre en el Ayuntamiento)."
+   },
+   "id": "e129"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "20:00",
+   "cat": "musica",
+   "place": "espanya",
+   "title": {
+    "ca": "Casal del Vi · Los Sueters",
+    "es": "Mesón del Vino · Los Sueters"
+   },
+   "desc": null,
+   "id": "e130"
+  },
+  {
+   "date": "2026-10-11",
+   "time": "23:00",
+   "cat": "focs",
+   "place": "espanya",
+   "title": {
+    "ca": "Actuació final de festes · Tribut a Alejandro Sanz",
+    "es": "Actuación final de fiestas · Tributo a Alejandro Sanz"
+   },
+   "desc": {
+    "ca": "A continuació, castell de focs artificials de fi de festes a l'esplanada del c/ Sant Pere.",
+    "es": "A continuación, castillo de fuegos artificiales de fin de fiestas en la explanada del c/ San Pedro."
+   },
+   "id": "e131"
+  },
+  {
+   "date": "2026-10-12",
+   "time": "12:00",
+   "cat": "religios",
+   "place": "esglesia",
+   "title": {
+    "ca": "Missa en honor a la Mare de Déu del Pilar",
+    "es": "Misa en honor a la Virgen del Pilar"
+   },
+   "desc": {
+    "ca": "Patrona de la Guàrdia Civil.",
+    "es": "Patrona de la Guardia Civil."
+   },
+   "id": "e132"
+  },
+  {
+   "date": "2026-10-16",
+   "time": "19:00",
+   "cat": "cultura",
+   "place": "cultura",
+   "title": {
+    "ca": "Concert de l'Orquestra de Cambra de la Societat Filharmònica de València",
+    "es": "Concierto de la Orquesta de Cámara de la Sociedad Filarmónica de Valencia"
+   },
+   "desc": null,
+   "id": "e133"
+  },
+  {
+   "date": "2026-10-16",
+   "time": "23:00",
+   "cat": "musica",
+   "place": "recinte",
+   "title": {
+    "ca": "Santi de Santiago",
+    "es": "Santi de Santiago"
+   },
+   "desc": null,
+   "id": "e134"
+  },
+  {
+   "date": "2026-10-18",
+   "time": "08:30",
+   "cat": "religios",
+   "place": "esglesia",
+   "title": {
+    "ca": "Rosari de l'aurora · in memoriam Rosarito «la Llebra»",
+    "es": "Rosario de la aurora · in memoriam Rosarito «la Llebra»"
+   },
+   "desc": {
+    "ca": "Eixida des de la plaça de l'església de la Nativitat. En finalitzar, xocolatada. Organitza: Lluïsos Almassora.",
+    "es": "Salida desde la plaza de la iglesia de la Natividad. Al finalizar, chocolatada. Organiza: Lluïsos Almassora."
+   },
+   "id": "e135"
+  },
+  {
+   "date": "2026-10-23",
+   "time": "18:00",
+   "cat": "festa",
+   "place": "recinte",
+   "title": {
+    "ca": "Mistery Puzzle · Activitat benèfica AECC",
+    "es": "Mistery Puzzle · Actividad benéfica AECC"
+   },
+   "desc": {
+    "ca": "La recaptació es destinarà íntegrament a la lluita contra el càncer. Inscripcions: aepuzz.es",
+    "es": "La recaudación se destinará íntegramente a la lucha contra el cáncer. Inscripciones: aepuzz.es"
+   },
+   "id": "e136"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "09:30",
+   "cat": "musica",
+   "place": "sant_pere",
+   "title": {
+    "ca": "VII Fira Flamenca · Eixida de la romeria",
+    "es": "VII Feria Flamenca · Salida de la romería"
+   },
+   "desc": null,
+   "id": "e137"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "10:00",
+   "cat": "festa",
+   "place": "recinte",
+   "title": {
+    "ca": "Concurs de puzzle individual",
+    "es": "Concurso de puzzle individual"
+   },
+   "desc": {
+    "ca": "Categoria adulta i infantils de 100 i 200 peces.",
+    "es": "Categoría adulta e infantiles de 100 y 200 piezas."
+   },
+   "id": "e138"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "10:30",
+   "cat": "festa",
+   "place": "pere_cornell",
+   "title": {
+    "ca": "Esmorzar dels romers",
+    "es": "Almuerzo de los romeros"
+   },
+   "desc": null,
+   "id": "e139"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "11:00",
+   "cat": "festa",
+   "place": "santa_quiteria",
+   "title": {
+    "ca": "Continua la romeria cap a Santa Quitèria",
+    "es": "Continúa la romería hacia Santa Quiteria"
+   },
+   "desc": null,
+   "id": "e140"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "12:30",
+   "cat": "festa",
+   "place": "recinte",
+   "title": {
+    "ca": "Puzzle Chess",
+    "es": "Puzzle Chess"
+   },
+   "desc": null,
+   "id": "e141"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "13:00",
+   "cat": "musica",
+   "place": "santa_quiteria",
+   "title": {
+    "ca": "Cuerda pa rato (rumbes i sevillanes)",
+    "es": "Cuerda pa rato (rumbas y sevillanas)"
+   },
+   "desc": null,
+   "id": "e142"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "16:00",
+   "cat": "musica",
+   "place": "santa_quiteria",
+   "title": {
+    "ca": "Tardeo amb Cuerda pa rato",
+    "es": "Tardeo con Cuerda pa rato"
+   },
+   "desc": null,
+   "id": "e143"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "16:30",
+   "cat": "festa",
+   "place": "recinte",
+   "title": {
+    "ca": "Continuació de Puzzle Chess",
+    "es": "Continuación de Puzzle Chess"
+   },
+   "desc": null,
+   "id": "e144"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "18:00",
+   "cat": "festa",
+   "place": "recinte",
+   "title": {
+    "ca": "Puzzle per parelles · Lliurament de premis",
+    "es": "Puzzle por parejas · Entrega de premios"
+   },
+   "desc": null,
+   "id": "e145"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "19:30",
+   "cat": "festa",
+   "place": "santa_quiteria",
+   "title": {
+    "ca": "Tornada de la romeria cap al poble",
+    "es": "Vuelta de la romería hacia el pueblo"
+   },
+   "desc": null,
+   "id": "e146"
+  },
+  {
+   "date": "2026-10-25",
+   "time": "10:00",
+   "cat": "festa",
+   "place": "recinte",
+   "title": {
+    "ca": "Concurs de puzzle per equips",
+    "es": "Concurso de puzzle por equipos"
+   },
+   "desc": {
+    "ca": "Activitat benèfica a favor de l'AECC.",
+    "es": "Actividad benéfica a favor de la AECC."
+   },
+   "id": "e147"
+  }
+ ],
+ "court": [
+  {
+   "id": "reina",
+   "role": {
+    "ca": "Reina de les festes",
+    "es": "Reina de las fiestas"
+   },
+   "name": "Martina Caparrós Mezquita",
+   "photo": null
+  },
+  {
+   "id": "dama1",
+   "role": {
+    "ca": "Cort d'honor",
+    "es": "Corte de honor"
+   },
+   "name": "Beatriz Alcaide Ahís",
+   "photo": null
+  },
+  {
+   "id": "dama2",
+   "role": {
+    "ca": "Cort d'honor",
+    "es": "Corte de honor"
+   },
+   "name": "Marta Curic Vega",
+   "photo": null
+  },
+  {
+   "id": "dama3",
+   "role": {
+    "ca": "Cort d'honor",
+    "es": "Corte de honor"
+   },
+   "name": "Belén Zafrilla Piñero",
+   "photo": null
+  },
+  {
+   "id": "dama4",
+   "role": {
+    "ca": "Cort d'honor",
+    "es": "Corte de honor"
+   },
+   "name": "Diana Zafrilla Piñero",
+   "photo": null
+  }
+ ],
+ "bulls": [
+  {
+   "date": "2026-10-03",
+   "time": "18:00",
+   "number": 21,
+   "name": "Cortijero",
+   "coat": {
+    "ca": "Cárdeno oscuro bragado corrido salpicado rabicano",
+    "es": "Cárdeno oscuro bragado corrido salpicado rabicano"
+   },
+   "ranch": "San Martín",
+   "exit": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "embolada": {
+    "ca": "Plaça Picaora",
+    "es": "Plaça Picaora"
+   },
+   "sponsor": "Ajuntament d'Almassora (Bou del Poble)",
+   "photo": null
+  },
+  {
+   "date": "2026-10-03",
+   "time": "18:00",
+   "number": 92,
+   "name": "Cantante",
+   "coat": {
+    "ca": "Negro burraco listón",
+    "es": "Negro burraco listón"
+   },
+   "ranch": "Torrestrella",
+   "exit": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "embolada": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "sponsor": "Penya Gent del Bou",
+   "photo": null
+  },
+  {
+   "date": "2026-10-05",
+   "time": "18:00",
+   "number": 34,
+   "name": "Lirio",
+   "coat": {
+    "ca": "Colorado",
+    "es": "Colorado"
+   },
+   "ranch": "El Pilar",
+   "exit": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "embolada": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "sponsor": "Penyes Sant Roc, K-nut, El Duro, El Desfase, La Priva, La Kolva, La Trama, La Treba, La Falkà, La Kalimba, El Demacre, La Juerga, La Trivà",
+   "photo": null
+  },
+  {
+   "date": "2026-10-05",
+   "time": "18:00",
+   "number": 743,
+   "name": "Aguito",
+   "coat": {
+    "ca": "Negro mulato",
+    "es": "Negro mulato"
+   },
+   "ranch": "El Torreón",
+   "exit": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "embolada": {
+    "ca": "Plaça Picaora",
+    "es": "Plaça Picaora"
+   },
+   "sponsor": "Penyes El Rollet, La Fuga, La Travessa, L'Emboscà, L'Artiste, La Katrava, La Kurda, El Porrat, La Maraña, La Traskà, La Xascà, El Vaivén, L'Estampà, La Desídia, El Desmadrao",
+   "photo": null
+  },
+  {
+   "date": "2026-10-06",
+   "time": "18:00",
+   "number": 18,
+   "name": "Artesano",
+   "coat": {
+    "ca": "Negro mulato",
+    "es": "Negro mulato"
+   },
+   "ranch": "Los Lastrones S.L.",
+   "exit": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "embolada": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "sponsor": "Aficionats al Bou d'Almassora",
+   "photo": null
+  },
+  {
+   "date": "2026-10-06",
+   "time": "18:00",
+   "number": 48,
+   "name": "Mariscador",
+   "coat": {
+    "ca": "Cárdeno calcetero coletero",
+    "es": "Cárdeno calcetero coletero"
+   },
+   "ranch": "Ana Romero",
+   "exit": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "embolada": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "sponsor": "Penya El Comboi",
+   "photo": null
+  },
+  {
+   "date": "2026-10-07",
+   "time": "18:00",
+   "number": 88,
+   "name": "Durazno",
+   "coat": {
+    "ca": "Negro",
+    "es": "Negro"
+   },
+   "ranch": "Hermanas Angoso Clavijo",
+   "exit": {
+    "ca": "Plaça Picaora",
+    "es": "Plaça Picaora"
+   },
+   "embolada": {
+    "ca": "Plaça Picaora",
+    "es": "Plaça Picaora"
+   },
+   "sponsor": "A.C.T. La Picaora, El Jaleo i El Bureo",
+   "photo": null
+  },
+  {
+   "date": "2026-10-07",
+   "time": "18:00",
+   "number": 26,
+   "name": "Barbafina",
+   "coat": {
+    "ca": "Castaño bragado corrido",
+    "es": "Castaño bragado corrido"
+   },
+   "ranch": "Torrestrella",
+   "exit": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "embolada": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "sponsor": "Penyes Els Vint, La Brusa, La Colla, Els Casats, L'Aberració, La Galbana, L'Estocà, La Tribu, Tots Tancats, La Kalaña, L'Embolic, El Deklive, El Descaro, La Tabarra, La Jarana, La Xabola",
+   "photo": null
+  },
+  {
+   "date": "2026-10-08",
+   "time": "18:00",
+   "number": 68,
+   "name": "Bello",
+   "coat": {
+    "ca": "Colorado",
+    "es": "Colorado"
+   },
+   "ranch": "El Pilar",
+   "exit": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "embolada": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "sponsor": "Penyes Els Penjats, El Barrilet, El Racó, T'Empujen, El Gavell, El Corb, Els Clafidors, San Fermín, Amigues del Bou, El Roser",
+   "photo": null
+  },
+  {
+   "date": "2026-10-08",
+   "time": "18:00",
+   "number": 719,
+   "name": "Margaritino",
+   "coat": {
+    "ca": "Negro mulato",
+    "es": "Negro mulato"
+   },
+   "ranch": "El Torreón",
+   "exit": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "embolada": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "sponsor": "Penyes El Polp, El Bocao, Gamusinos, La Jerga, La Tremba, La Kliba, La Kalatra, Bufa la Gamba, El Desdén, El Intento, La Strankà, La Trenkà, L'Avagelio, El Jolgorio, La Tolka, Joventut Taurina",
+   "photo": null
+  },
+  {
+   "date": "2026-10-10",
+   "time": "18:00",
+   "number": 50,
+   "name": "Gambito",
+   "coat": {
+    "ca": "Castaño",
+    "es": "Castaño"
+   },
+   "ranch": "Toros de El Torero",
+   "exit": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "embolada": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "sponsor": "Penyes El Caragol i El Trasto",
+   "photo": null
+  },
+  {
+   "date": "2026-10-10",
+   "time": "18:00",
+   "number": 55,
+   "name": "Honduro",
+   "coat": {
+    "ca": "Negro mulato chorreado bragado",
+    "es": "Negro mulato chorreado bragado"
+   },
+   "ranch": "Manuel y Antonio Tornay",
+   "exit": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "embolada": {
+    "ca": "Plaça Major",
+    "es": "Plaça Major"
+   },
+   "sponsor": "Aficionades Taurines d'Almassora",
+   "photo": null
+  }
+ ],
+ "cows": [
+  {
+   "date": "2026-10-03",
+   "time": "13:00",
+   "ranch": "Fernando Mansilla"
+  },
+  {
+   "date": "2026-10-05",
+   "time": "13:00",
+   "ranch": "Jaime Tárrega Lucas"
+  },
+  {
+   "date": "2026-10-06",
+   "time": "13:00",
+   "ranch": "Hermanos Bellés"
+  },
+  {
+   "date": "2026-10-07",
+   "time": "13:00",
+   "ranch": "Vicente Benavent"
+  },
+  {
+   "date": "2026-10-08",
+   "time": "13:00",
+   "ranch": "La Paloma"
+  },
+  {
+   "date": "2026-10-09",
+   "time": "13:00",
+   "ranch": "Hermanos Cali"
+  },
+  {
+   "date": "2026-10-10",
+   "time": "13:00",
+   "ranch": "Sergio Rúa"
+  }
+ ],
+ "trophies": [
+  {
+   "name": {
+    "ca": "Trofeu al millor bou de la fira",
+    "es": "Trofeo al mejor toro de la feria"
+   },
+   "sponsor": "CaixAlmassora"
+  },
+  {
+   "name": {
+    "ca": "Trofeu al bou millor presentat",
+    "es": "Trofeo al toro mejor presentado"
+   },
+   "sponsor": "Associació de Penyes Taurines"
+  },
+  {
+   "name": {
+    "ca": "Trofeu a la millor eixida",
+    "es": "Trofeo a la mejor salida"
+   },
+   "sponsor": "Penya El Deklive"
+  },
+  {
+   "name": {
+    "ca": "Trofeu a la millor embolada",
+    "es": "Trofeo a la mejor embolada"
+   },
+   "sponsor": "Penyes La Galbana i La Jarana"
+  },
+  {
+   "name": {
+    "ca": "Trofeu al millor recort d'eixida",
+    "es": "Trofeo al mejor recorte de salida"
+   },
+   "sponsor": "Penya El Caragol"
+  }
+ ],
+ "info": [
+  {
+   "id": "rules",
+   "title": {
+    "ca": "Normes dels actes taurins",
+    "es": "Normas de los actos taurinos"
+   },
+   "body": {
+    "ca": "1. En la festa taurina tradicional no es permetrà la participació de menors de 16 anys, que tan sols podran anar com a espectadors i sempre sota la responsabilitat de pares, mares o tutors.\n2. No es permetrà la participació de persones que mostren manca de condicions físiques per a intervindre en la festa tradicional.\n3. Els organitzadors podran sol·licitar ajuda de l'autoritat si es produïx resistència al compliment d'estes disposicions.\nDurant els actes taurins, l'accés al recinte de la vila és baix la responsabilitat de cadascun dels aficionats.",
+    "es": "1. En la fiesta taurina tradicional no se permitirá la participación de menores de 16 años, que tan solo podrán ir como espectadores y siempre bajo la responsabilidad de padres, madres o tutores.\n2. No se permitirá la participación de personas que muestren carencia de condiciones físicas para intervenir en la fiesta tradicional.\n3. Los organizadores podrán solicitar ayuda de la autoridad si se produce resistencia al cumplimiento de estas disposiciones.\nDurante los actos taurinos, el acceso al recinto de la vila es bajo la responsabilidad de cada uno de los aficionados."
+   }
+  },
+  {
+   "id": "parking",
+   "title": {
+    "ca": "Aparcament",
+    "es": "Aparcamiento"
+   },
+   "body": {
+    "ca": "Per a evitar sancions, no aparqueu en les zones reservades per als actes festius. L'11 d'octubre l'aparcament de Sant Pere no estarà disponible; el 10 i 11 d'octubre tampoc el de la piscina.",
+    "es": "Para evitar sanciones, no aparque en las zonas reservadas para los actos festivos. El 11 de octubre el aparcamiento de San Pedro no estará disponible; el 10 y 11 de octubre tampoco el de la piscina."
+   }
+  },
+  {
+   "id": "junta",
+   "title": {
+    "ca": "Junta Local de Festes",
+    "es": "Junta Local de Fiestas"
+   },
+   "body": {
+    "ca": "La Junta Local de Festes es reserva el dret de modificar el programa d'actes o de suspendre alguna celebració festera si circumstàncies adverses ho aconsellen.",
+    "es": "La Junta Local de Fiestas se reserva el derecho de modificar el programa de actos o de suspender alguna celebración festiva si circunstancias adversas lo aconsejan."
+   }
+  }
+ ],
+ "emergency": [
+  {
+   "name": {
+    "ca": "Emergències",
+    "es": "Emergencias"
+   },
+   "phone": "112"
+  },
+  {
+   "name": {
+    "ca": "Guàrdia Civil",
+    "es": "Guardia Civil"
+   },
+   "phone": "062"
+  },
+  {
+   "name": {
+    "ca": "Policia Local",
+    "es": "Policía Local"
+   },
+   "phone": "092"
+  }
+ ]
+}
