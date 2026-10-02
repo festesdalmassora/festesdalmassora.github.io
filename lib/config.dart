@@ -1,11 +1,11 @@
-/// Dades de contacte opcionals (si estan buides, la secció no es mostra).
+/// Dades de contacte opcionals (si estan buides, la secciÃ³ no es mostra).
 const String kContactEmail = 'festesdalmassora@gmail.com';
 const String kAuthorName = '';
 const String kContactSubject = 'Festes del Roser - suggeriment';
 
-/// Número de compilació d'esta versió (el mateix que després del "+" a pubspec.yaml).
-const int kAppBuild = 2;
-const String kAppVersionName = '1.0.1';
+/// NÃºmero de compilaciÃ³ d'esta versiÃ³ (el mateix que desprÃ©s del "+" a pubspec.yaml).
+const int kAppBuild = 3;
+const String kAppVersionName = '1.0.2';
 
-/// Fitxer amb l'última versió publicada de l'APK (mira les notes a README.md).
+/// Fitxer amb l'Ãºltima versiÃ³ publicada de l'APK (mira les notes a README.md).
 const String kVersionUrl = 'https://festesdalmassora.github.io/version.json';

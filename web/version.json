@@ -1,10 +1,10 @@
 {
-  "build": 2,
-  "name": "1.0.1",
-  "apk": "https://festesdalmassora.github.io/download/FestesAlmassora-arm64.apk",
-  "page": "https://festesdalmassora.github.io/descarga.html",
-  "notes": {
-    "ca": "Versió inicial amb avís d'actualitzacions.",
-    "es": "Versión inicial con aviso de actualizaciones."
-  }
+    "build":  3,
+    "name":  "1.0.2",
+    "apk":  "https://festesdalmassora.github.io/download/FestesAlmassora-arm64.apk",
+    "page":  "https://festesdalmassora.github.io/descarga.html",
+    "notes":  {
+                  "ca":  "Nova icona del bou i millores.",
+                  "es":  "Nuevo icono del toro y mejoras."
+              }
 }
