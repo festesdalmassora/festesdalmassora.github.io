@@ -10,7 +10,7 @@ import json
 import os
 
 YEAR = 2026
-VERSION = 1
+VERSION = 2
 OUT = os.path.join(os.path.dirname(__file__), '..', 'assets', 'editions', str(YEAR), 'edition.json')
 
 
@@ -229,7 +229,7 @@ conc_cultura(d)
 ev(d, '23:30', 'bous', 'picaora', "Bous embolats · Ajuntament i Gent del Bou", "«Bous embolats» · Ayuntamiento y Gent del Bou",
    "Bou de l'Ajuntament amb eixida de la plaça de la Picaora i el de la penya Gent del Bou amb eixida des de la plaça Major.",
    "Toro del Ayuntamiento con salida desde la plaza de la Picaora y el de la peña Gent del Bou con salida desde la plaza Mayor.")
-ev(d, '24:00', 'musica', 'espanya', 'Mojinos Escozíos', 'Mojinos Escozíos', 'Concert a la plaça d\'Espanya.', 'Concierto en la plaza España.')
+ev(d, '24:00', 'musica', 'recinte', 'Mojinos Escozíos', 'Mojinos Escozíos', "Canvi de localització per previsió meteorològica: el concert es fa al Recinte Fester (abans a la plaça d'Espanya).", "Cambio de localización por previsión meteorológica: el concierto se celebra en el Recinte Fester (antes en la plaza España).")
 ev(d, '01:30', 'musica', 'major19', 'Tech house amb DJ Ximo Pacheco (penya La Kliba)', 'Tech house con DJ Ximo Pacheco (peña La Kliba)')
 ev(d, '03:00', 'musica', 'recinte', 'Recinte Fester · Roberto Anglès, DJ Alenn i Diego Marza', 'Recinte Fester · Roberto Anglès, DJ Alenn y Diego Marza')
 

@@ -1,6 +1,6 @@
 {
  "year": 2026,
- "version": 1,
+ "version": 2,
  "title": {
   "ca": "Festes de la Mare de Déu del Roser",
   "es": "Fiestas de la Virgen del Rosario"
@@ -720,14 +720,14 @@
    "date": "2026-10-03",
    "time": "24:00",
    "cat": "musica",
-   "place": "espanya",
+   "place": "recinte",
    "title": {
     "ca": "Mojinos Escozíos",
     "es": "Mojinos Escozíos"
    },
    "desc": {
-    "ca": "Concert a la plaça d'Espanya.",
-    "es": "Concierto en la plaza España."
+    "ca": "Canvi de localització per previsió meteorològica: el concert es fa al Recinte Fester (abans a la plaça d'Espanya).",
+    "es": "Cambio de localización por previsión meteorológica: el concierto se celebra en el Recinte Fester (antes en la plaza España)."
    },
    "id": "e034"
   },
