@@ -55,6 +55,11 @@ const _s = <String, Map<String, String>>{
   'made_by': {'ca': 'Fet per', 'es': 'Hecho por'},
   'update_available': {'ca': "Hi ha una versió nova de l'app", 'es': 'Hay una versión nueva de la app'},
   'update_btn': {'ca': 'Descarrega', 'es': 'Descargar'},
+  'install': {'ca': "Instal·la o comparteix l'app", 'es': 'Instala o comparte la app'},
+  'install_body': {
+    'ca': "Afig-la a la pantalla d'inici o descarrega l'APK per a Android.",
+    'es': 'Añádela a la pantalla de inicio o descarga el APK para Android.',
+  },
   'call': {'ca': 'Telefona', 'es': 'Llamar'},
 };
 

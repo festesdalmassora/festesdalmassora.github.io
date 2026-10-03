@@ -31,6 +31,13 @@ class InfoScreen extends StatelessWidget {
               onSelectionChanged: (v) => state.setLang(v.first),
             ),
           ),
+          SectionTitle(tr(l, 'install')),
+          ListTile(
+            leading: const Icon(Icons.install_mobile),
+            title: Text(tr(l, 'install_body')),
+            trailing: const Icon(Icons.open_in_new),
+            onTap: () => launchUrl(Uri.parse(kDownloadUrl), mode: LaunchMode.externalApplication),
+          ),
           SectionTitle(tr(l, 'emergency')),
           for (final e in ed.emergency)
             ListTile(

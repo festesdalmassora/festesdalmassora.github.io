@@ -11,4 +11,7 @@ const String kAppVersionName = '1.0.7';
 const String kStatsUrl = 'https://festesdalmassora.goatcounter.com/count';
 
 /// Fitxer amb l'última versió publicada de l'APK (mira les notes a README.md).
+/// Pàgina amb enllaços d'instal·lació (web i APK).
+const String kDownloadUrl = 'https://festesdalmassora.github.io/descarga.html';
+
 const String kVersionUrl = 'https://festesdalmassora.github.io/version.json';
